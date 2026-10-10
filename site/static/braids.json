@@ -1,0 +1,951 @@
+[
+  {
+    "data_hash": "blake3:edge:82dfe3427a88bb59a5f57c70afc9b4bd",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:wilk",
+        "hash": "3cb57fa27a1bf452e28d14c07216831cdb12788bd09692a7fd7cb4b725985e25"
+      },
+      {
+        "id": "urn:content:lansing:dykema",
+        "hash": "21e02dd564bccc817e5f5444c014a8ba84622c9f5575bb3c902341253706f7dd"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "wilk \u2192 dykema (employment)",
+      "tags": [
+        "employment",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "role": "Member, Team Leader Political Compliance",
+        "edge_type": "employment",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:2e4685b725b17ca024ab82593cfcf20c",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:renae_moore",
+        "hash": "a481043b651370dff5a40f838f1736220e95fceb0b3b96e1743d0bf544beebd0"
+      },
+      {
+        "id": "urn:content:lansing:dykema",
+        "hash": "21e02dd564bccc817e5f5444c014a8ba84622c9f5575bb3c902341253706f7dd"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "renae_moore \u2192 dykema (employment)",
+      "tags": [
+        "employment",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "role": "Senior Compliance Specialist",
+        "edge_type": "employment",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:a38bc3654abadfb1c06ae47b0313f237",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:dykema",
+        "hash": "21e02dd564bccc817e5f5444c014a8ba84622c9f5575bb3c902341253706f7dd"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "dykema \u2192 dykema_federal_pac (formation)",
+      "tags": [
+        "formation",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "note": "$131K to 47 candidates, both parties",
+        "edge_type": "formation",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:5c9a7535f7685a4b9fa7ce4ec72d3936",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:dykema",
+        "hash": "21e02dd564bccc817e5f5444c014a8ba84622c9f5575bb3c902341253706f7dd"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "dykema \u2192 dykema_state_pac (formation)",
+      "tags": [
+        "formation",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "note": "$725K+ since 2017, bipartisan",
+        "edge_type": "formation",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:500415f367d4c76c98fa650c19ebe997",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:barrett",
+        "hash": "cbc5dcdbd214c8b7b572d0adda4e561d92e677a7bdacf815d79b53bc64489fc5"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "dykema_federal_pac \u2192 barrett (financial)",
+      "tags": [
+        "financial",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "amount": "$4,000",
+        "source_doc": "FEC C00342113",
+        "edge_type": "financial",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:db57244be5d1ebc09964ca5a51e278af",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "https://barry.primals.eco/analysis/hey-mikey/",
+        "hash": ""
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "dykema_federal_pac \u2192 rogers (financial)",
+      "tags": [
+        "financial",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "source_doc": "FEC",
+        "edge_type": "financial",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:1fe76c7e694f62e269c4079aa2589b0b",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:wilk",
+        "hash": "3cb57fa27a1bf452e28d14c07216831cdb12788bd09692a7fd7cb4b725985e25"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "wilk \u2192 sdj (formation)",
+      "tags": [
+        "formation",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "source_doc": "LARA 802002459",
+        "edge_type": "formation",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:4bf45af780b56e81041fb7154924cd96",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:wilk",
+        "hash": "3cb57fa27a1bf452e28d14c07216831cdb12788bd09692a7fd7cb4b725985e25"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "wilk \u2192 onf (formation)",
+      "tags": [
+        "formation",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "edge_type": "formation",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:9f476568cfe83b7078c9e3eba8c9de23",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:wilk",
+        "hash": "3cb57fa27a1bf452e28d14c07216831cdb12788bd09692a7fd7cb4b725985e25"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "wilk \u2192 djf (formation)",
+      "tags": [
+        "formation",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "edge_type": "formation",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:ed753a8ac2cbf8f7d821660a3abcab23",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:wilk",
+        "hash": "3cb57fa27a1bf452e28d14c07216831cdb12788bd09692a7fd7cb4b725985e25"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "wilk \u2192 rffw (formation)",
+      "tags": [
+        "formation",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "edge_type": "formation",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:b92628f56de58aebad88bb6b358030fd",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:wilk",
+        "hash": "3cb57fa27a1bf452e28d14c07216831cdb12788bd09692a7fd7cb4b725985e25"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "wilk \u2192 peninsula_fund (formation)",
+      "tags": [
+        "formation",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "edge_type": "formation",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:280dff8895406e7155a755650ee1e02d",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:renae_moore",
+        "hash": "a481043b651370dff5a40f838f1736220e95fceb0b3b96e1743d0bf544beebd0"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "renae_moore \u2192 sdj (governance)",
+      "tags": [
+        "governance",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "role": "Assistant Secretary",
+        "edge_type": "governance",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:134c75f1e64ce777e8838eea9c17428d",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:renae_moore",
+        "hash": "a481043b651370dff5a40f838f1736220e95fceb0b3b96e1743d0bf544beebd0"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "renae_moore \u2192 onf (governance)",
+      "tags": [
+        "governance",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "role": "Compliance",
+        "edge_type": "governance",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:ad0e205a9b4f54ebaefc0c48d40e0738",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:renae_moore",
+        "hash": "a481043b651370dff5a40f838f1736220e95fceb0b3b96e1743d0bf544beebd0"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "renae_moore \u2192 rffw (governance)",
+      "tags": [
+        "governance",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "role": "Treasurer",
+        "edge_type": "governance",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:7704363dc724e62a570bc32d4fe8a893",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:renae_moore",
+        "hash": "a481043b651370dff5a40f838f1736220e95fceb0b3b96e1743d0bf544beebd0"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "renae_moore \u2192 peninsula_fund (governance)",
+      "tags": [
+        "governance",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "role": "Compliance",
+        "edge_type": "governance",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:7e68dc04832290db88d1ff90253bc038",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:renae_moore",
+        "hash": "a481043b651370dff5a40f838f1736220e95fceb0b3b96e1743d0bf544beebd0"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "renae_moore \u2192 promise_to_the_people (governance)",
+      "tags": [
+        "governance",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "note": "Dual role \u2014 AG-affiliated fund while AG prosecutes Chatfield",
+        "edge_type": "governance",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:b4390e1f4eef15d2fa6510a8cedd27a2",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:dykema",
+        "hash": "21e02dd564bccc817e5f5444c014a8ba84622c9f5575bb3c902341253706f7dd"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "dykema \u2192 sdj (formation)",
+      "tags": [
+        "formation",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "note": "SDJ phone = Dykema phone (517-374-9100). compliance@dykema.com.",
+        "edge_type": "formation",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:bb237d720e5b62d03ab4d3b653445b64",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "https://detroit.primals.eco/network/actors/brian-banks/",
+        "hash": ""
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "sdj \u2192 banks (money_flow)",
+      "tags": [
+        "money_flow",
+        "corroborated",
+        "lansing"
+      ],
+      "custom": {
+        "note": "SDJ $84K expenditure elected Latisha Johnson \u2192 PCA Board Secretary",
+        "edge_type": "money_flow",
+        "epistemic_status": "corroborated"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:4219d753f1d2c532a2022375de5d9626",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:tremblay",
+        "hash": "354b8120c23a70cde97d69f5025e2afb3f599e881996913eeb69a5bbbf7cce02"
+      },
+      {
+        "id": "https://detroit.primals.eco/network/actors/brian-banks/",
+        "hash": ""
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "tremblay \u2192 banks (recusal)",
+      "tags": [
+        "recusal",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "note": "Recused from Banks PPO in Ingham County",
+        "edge_type": "recusal",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:ea7423c25219f46e29e685fa0c611cfc",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:tremblay",
+        "hash": "354b8120c23a70cde97d69f5025e2afb3f599e881996913eeb69a5bbbf7cce02"
+      },
+      {
+        "id": "urn:content:lansing:dykema",
+        "hash": "21e02dd564bccc817e5f5444c014a8ba84622c9f5575bb3c902341253706f7dd"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "tremblay \u2192 dykema (professional_proximity)",
+      "tags": [
+        "professional_proximity",
+        "inference",
+        "lansing"
+      ],
+      "custom": {
+        "note": "18yr overlap in Lansing campaign finance world. Ingham County Bar.",
+        "edge_type": "professional_proximity",
+        "epistemic_status": "inference"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:b95c6705b076352bc5dff273f88f50a6",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:tremblay",
+        "hash": "354b8120c23a70cde97d69f5025e2afb3f599e881996913eeb69a5bbbf7cce02"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "aaron_keel \u2192 tremblay (professional_proximity)",
+      "tags": [
+        "professional_proximity",
+        "inference",
+        "lansing"
+      ],
+      "custom": {
+        "note": "Both in House Democratic Caucus. Keel was Deputy CoS, Tremblay was Legal Counsel.",
+        "edge_type": "professional_proximity",
+        "epistemic_status": "inference"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:0b74fe12fed86c17e15fa494a861efef",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:dykema",
+        "hash": "21e02dd564bccc817e5f5444c014a8ba84622c9f5575bb3c902341253706f7dd"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "aaron_keel \u2192 dykema (employment)",
+      "tags": [
+        "employment",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "note": "MASB \u2192 House \u2192 Treasury \u2192 Dykema revolving door",
+        "edge_type": "employment",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:3a35a0b8f2dcdab7dfec8e1233a7e4ee",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:barrett",
+        "hash": "cbc5dcdbd214c8b7b572d0adda4e561d92e677a7bdacf815d79b53bc64489fc5"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "afp_action \u2192 barrett (financial)",
+      "tags": [
+        "financial",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "amount": "$477,780",
+        "note": "44.8% of outside spending in MI-7",
+        "edge_type": "financial",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:1b37ec80fb45aea7e5e7f859e5739ab5",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:barrett",
+        "hash": "cbc5dcdbd214c8b7b572d0adda4e561d92e677a7bdacf815d79b53bc64489fc5"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "nrcc \u2192 barrett (amplification)",
+      "tags": [
+        "amplification",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "amount": "$6.3M",
+        "note": "MI-7 spend including 'socialist felon' mailer",
+        "edge_type": "amplification",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:2f1fcc7ed6f73729408de591cfad73ef",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "https://barry.primals.eco/analysis/tommy-boy/",
+        "hash": ""
+      },
+      {
+        "id": "urn:content:lansing:barrett",
+        "hash": "cbc5dcdbd214c8b7b572d0adda4e561d92e677a7bdacf815d79b53bc64489fc5"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "jason_roe \u2192 barrett (employment)",
+      "tags": [
+        "employment",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "amount": "$114K+",
+        "role": "Senior advisor",
+        "source_doc": "FEC",
+        "edge_type": "employment",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:f2ae1e073dfc077778afbebc10dcd65f",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:barrett",
+        "hash": "cbc5dcdbd214c8b7b572d0adda4e561d92e677a7bdacf815d79b53bc64489fc5"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "griffin \u2192 barrett (donation)",
+      "tags": [
+        "donation",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "amount": "$7,000",
+        "edge_type": "donation",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:a0ccd6622888e76b85cf3f15a42b23d9",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:barrett",
+        "hash": "cbc5dcdbd214c8b7b572d0adda4e561d92e677a7bdacf815d79b53bc64489fc5"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "schwarzman \u2192 barrett (donation)",
+      "tags": [
+        "donation",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "note": "Maxed out",
+        "edge_type": "donation",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:bdfb7027316c8aa3a2b8142fccc2f337",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "https://barry.primals.eco/analysis/hey-mikey/",
+        "hash": ""
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "griffin \u2192 rogers (donation)",
+      "tags": [
+        "donation",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "note": "Via GLCF",
+        "edge_type": "donation",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:a63c74a2fa33e2f4ed1b5c936ff34cdb",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "https://barry.primals.eco/analysis/hey-mikey/",
+        "hash": ""
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "schwarzman \u2192 rogers (donation)",
+      "tags": [
+        "donation",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "edge_type": "donation",
+        "epistemic_status": "record"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:45a8de06ba86f642361209808e2ffe63",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "chatfield \u2192 peninsula_fund (governance)",
+      "tags": [
+        "governance",
+        "filed",
+        "lansing"
+      ],
+      "custom": {
+        "note": "13 felony charges including embezzlement",
+        "edge_type": "governance",
+        "epistemic_status": "filed"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:edge:44110beb530c508cf683326952a2a2b5",
+    "mime_type": "application/json",
+    "braided_at": "2026-10-10T02:26:40Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "lansing-build graph edge to PROV-O braid",
+      "software": "lansing-build/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:barrett",
+        "hash": "cbc5dcdbd214c8b7b572d0adda4e561d92e677a7bdacf815d79b53bc64489fc5"
+      },
+      {
+        "id": "https://detroit.primals.eco/network/actors/brian-banks/",
+        "hash": ""
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "barrett \u2192 banks (smear)",
+      "tags": [
+        "smear",
+        "record",
+        "lansing"
+      ],
+      "custom": {
+        "note": "'Convicted felon' rhetoric \u2014 projection via shared Dykema infrastructure",
+        "edge_type": "smear",
+        "epistemic_status": "record"
+      }
+    }
+  }
+]
