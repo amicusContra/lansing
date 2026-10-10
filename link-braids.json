@@ -1,0 +1,1056 @@
+[
+  {
+    "data_hash": "blake3:link:6a04127ef0e7fa6f57fcb94c26e1ca1d",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:barry:sitting-in-a-tree",
+        "hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/analysis/_index.md \u2192 https://barry.primals.eco/analysis/sitting-in-a-tree/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/analysis/_index.md",
+        "source_line": 18,
+        "target_url": "https://barry.primals.eco/analysis/sitting-in-a-tree/",
+        "target_hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:ca4bac0745c32813b453696770c298e3",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:barry:how-to-build-an-os",
+        "hash": "ca4bac0745c32813b453696770c298e3296bf47dbd48355664d550c7bea59feb"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/analysis/_index.md \u2192 https://barry.primals.eco/analysis/how-to-build-an-os/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/analysis/_index.md",
+        "source_line": 20,
+        "target_url": "https://barry.primals.eco/analysis/how-to-build-an-os/",
+        "target_hash": "ca4bac0745c32813b453696770c298e3296bf47dbd48355664d550c7bea59feb"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:8909b9c76cc3207da5e5c126a7c840f9",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:capital-kernel",
+        "hash": "8909b9c76cc3207da5e5c126a7c840f9c5126183a6be53c15b1d0add2558f1a3"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/analysis/capital-kernel.md \u2192 https://lansing.primals.eco/analysis/capital-kernel/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/analysis/capital-kernel.md",
+        "source_line": 10,
+        "target_url": "https://lansing.primals.eco/analysis/capital-kernel/",
+        "target_hash": "8909b9c76cc3207da5e5c126a7c840f9c5126183a6be53c15b1d0add2558f1a3"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:6a04127ef0e7fa6f57fcb94c26e1ca1d",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:barry:sitting-in-a-tree",
+        "hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/analysis/capital-kernel.md \u2192 https://barry.primals.eco/analysis/sitting-in-a-tree/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/analysis/capital-kernel.md",
+        "source_line": 106,
+        "target_url": "https://barry.primals.eco/analysis/sitting-in-a-tree/",
+        "target_hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:ca4bac0745c32813b453696770c298e3",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:barry:how-to-build-an-os",
+        "hash": "ca4bac0745c32813b453696770c298e3296bf47dbd48355664d550c7bea59feb"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/analysis/capital-kernel.md \u2192 https://barry.primals.eco/analysis/how-to-build-an-os/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/analysis/capital-kernel.md",
+        "source_line": 108,
+        "target_url": "https://barry.primals.eco/analysis/how-to-build-an-os/",
+        "target_hash": "ca4bac0745c32813b453696770c298e3296bf47dbd48355664d550c7bea59feb"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:354b8120c23a70cde97d69f5025e2afb",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:judge-tremblay",
+        "hash": "354b8120c23a70cde97d69f5025e2afb3f599e881996913eeb69a5bbbf7cce02"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/actors/judge-tremblay.md \u2192 https://lansing.primals.eco/actors/judge-tremblay/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/actors/judge-tremblay.md",
+        "source_line": 15,
+        "target_url": "https://lansing.primals.eco/actors/judge-tremblay/",
+        "target_hash": "354b8120c23a70cde97d69f5025e2afb3f599e881996913eeb69a5bbbf7cce02"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:354b8120c23a70cde97d69f5025e2afb",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:judge-tremblay",
+        "hash": "354b8120c23a70cde97d69f5025e2afb3f599e881996913eeb69a5bbbf7cce02"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/actors/judge-tremblay.md \u2192 https://lansing.primals.eco/actors/judge-tremblay/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/actors/judge-tremblay.md",
+        "source_line": 16,
+        "target_url": "https://lansing.primals.eco/actors/judge-tremblay/",
+        "target_hash": "354b8120c23a70cde97d69f5025e2afb3f599e881996913eeb69a5bbbf7cce02"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:6a04127ef0e7fa6f57fcb94c26e1ca1d",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:barry:sitting-in-a-tree",
+        "hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/actors/judge-tremblay.md \u2192 https://barry.primals.eco/analysis/sitting-in-a-tree/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/actors/judge-tremblay.md",
+        "source_line": 78,
+        "target_url": "https://barry.primals.eco/analysis/sitting-in-a-tree/",
+        "target_hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:cbc5dcdbd214c8b7b572d0adda4e561d",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:tom-barrett",
+        "hash": "cbc5dcdbd214c8b7b572d0adda4e561d92e677a7bdacf815d79b53bc64489fc5"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/actors/tom-barrett.md \u2192 https://lansing.primals.eco/actors/tom-barrett/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/actors/tom-barrett.md",
+        "source_line": 15,
+        "target_url": "https://lansing.primals.eco/actors/tom-barrett/",
+        "target_hash": "cbc5dcdbd214c8b7b572d0adda4e561d92e677a7bdacf815d79b53bc64489fc5"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:44d2a150e918369cd33db843f71b0007",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:barry:tommy-boy",
+        "hash": "44d2a150e918369cd33db843f71b0007024066749da47b707e08540a20b97fff"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/actors/tom-barrett.md \u2192 https://barry.primals.eco/analysis/tommy-boy/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/actors/tom-barrett.md",
+        "source_line": 16,
+        "target_url": "https://barry.primals.eco/analysis/tommy-boy/",
+        "target_hash": "44d2a150e918369cd33db843f71b0007024066749da47b707e08540a20b97fff"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:cbc5dcdbd214c8b7b572d0adda4e561d",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:tom-barrett",
+        "hash": "cbc5dcdbd214c8b7b572d0adda4e561d92e677a7bdacf815d79b53bc64489fc5"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/actors/tom-barrett.md \u2192 https://lansing.primals.eco/actors/tom-barrett/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/actors/tom-barrett.md",
+        "source_line": 16,
+        "target_url": "https://lansing.primals.eco/actors/tom-barrett/",
+        "target_hash": "cbc5dcdbd214c8b7b572d0adda4e561d92e677a7bdacf815d79b53bc64489fc5"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:44d2a150e918369cd33db843f71b0007",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:barry:tommy-boy",
+        "hash": "44d2a150e918369cd33db843f71b0007024066749da47b707e08540a20b97fff"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/actors/tom-barrett.md \u2192 https://barry.primals.eco/analysis/tommy-boy/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/actors/tom-barrett.md",
+        "source_line": 79,
+        "target_url": "https://barry.primals.eco/analysis/tommy-boy/",
+        "target_hash": "44d2a150e918369cd33db843f71b0007024066749da47b707e08540a20b97fff"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:6a04127ef0e7fa6f57fcb94c26e1ca1d",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:barry:sitting-in-a-tree",
+        "hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/actors/tom-barrett.md \u2192 https://barry.primals.eco/analysis/sitting-in-a-tree/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/actors/tom-barrett.md",
+        "source_line": 80,
+        "target_url": "https://barry.primals.eco/analysis/sitting-in-a-tree/",
+        "target_hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:6a04127ef0e7fa6f57fcb94c26e1ca1d",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:barry:sitting-in-a-tree",
+        "hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/actors/dykema-gossett.md \u2192 https://barry.primals.eco/analysis/sitting-in-a-tree/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/actors/dykema-gossett.md",
+        "source_line": 126,
+        "target_url": "https://barry.primals.eco/analysis/sitting-in-a-tree/",
+        "target_hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:ca4bac0745c32813b453696770c298e3",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:barry:how-to-build-an-os",
+        "hash": "ca4bac0745c32813b453696770c298e3296bf47dbd48355664d550c7bea59feb"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/actors/dykema-gossett.md \u2192 https://barry.primals.eco/analysis/how-to-build-an-os/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/actors/dykema-gossett.md",
+        "source_line": 129,
+        "target_url": "https://barry.primals.eco/analysis/how-to-build-an-os/",
+        "target_hash": "ca4bac0745c32813b453696770c298e3296bf47dbd48355664d550c7bea59feb"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:3cb57fa27a1bf452e28d14c07216831c",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:w-alan-wilk",
+        "hash": "3cb57fa27a1bf452e28d14c07216831cdb12788bd09692a7fd7cb4b725985e25"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/actors/w-alan-wilk.md \u2192 https://lansing.primals.eco/actors/w-alan-wilk/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/actors/w-alan-wilk.md",
+        "source_line": 14,
+        "target_url": "https://lansing.primals.eco/actors/w-alan-wilk/",
+        "target_hash": "3cb57fa27a1bf452e28d14c07216831cdb12788bd09692a7fd7cb4b725985e25"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:6a04127ef0e7fa6f57fcb94c26e1ca1d",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:barry:sitting-in-a-tree",
+        "hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/actors/w-alan-wilk.md \u2192 https://barry.primals.eco/analysis/sitting-in-a-tree/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/actors/w-alan-wilk.md",
+        "source_line": 15,
+        "target_url": "https://barry.primals.eco/analysis/sitting-in-a-tree/",
+        "target_hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:6a04127ef0e7fa6f57fcb94c26e1ca1d",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:barry:sitting-in-a-tree",
+        "hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/actors/w-alan-wilk.md \u2192 https://barry.primals.eco/analysis/sitting-in-a-tree/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/actors/w-alan-wilk.md",
+        "source_line": 68,
+        "target_url": "https://barry.primals.eco/analysis/sitting-in-a-tree/",
+        "target_hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:a481043b651370dff5a40f838f173622",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:renae-moore",
+        "hash": "a481043b651370dff5a40f838f1736220e95fceb0b3b96e1743d0bf544beebd0"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/actors/renae-moore.md \u2192 https://lansing.primals.eco/actors/renae-moore/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/actors/renae-moore.md",
+        "source_line": 14,
+        "target_url": "https://lansing.primals.eco/actors/renae-moore/",
+        "target_hash": "a481043b651370dff5a40f838f1736220e95fceb0b3b96e1743d0bf544beebd0"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:6a04127ef0e7fa6f57fcb94c26e1ca1d",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:barry:sitting-in-a-tree",
+        "hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/actors/renae-moore.md \u2192 https://barry.primals.eco/analysis/sitting-in-a-tree/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/actors/renae-moore.md",
+        "source_line": 15,
+        "target_url": "https://barry.primals.eco/analysis/sitting-in-a-tree/",
+        "target_hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:6a04127ef0e7fa6f57fcb94c26e1ca1d",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:lansing.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:barry:sitting-in-a-tree",
+        "hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    ],
+    "was_attributed_to": "did:web:lansing.primals.eco",
+    "metadata": {
+      "title": "content/actors/renae-moore.md \u2192 https://barry.primals.eco/analysis/sitting-in-a-tree/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "lansing"
+      ],
+      "custom": {
+        "source_file": "content/actors/renae-moore.md",
+        "source_line": 82,
+        "target_url": "https://barry.primals.eco/analysis/sitting-in-a-tree/",
+        "target_hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:1374bf965d82bf0e4ace0e8b28fa63b1",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:tuebor.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:tuebor:enforcement-ecosystem",
+        "hash": "1374bf965d82bf0e4ace0e8b28fa63b16b53aa8f2c6c075526cdc20b765f9288"
+      }
+    ],
+    "was_attributed_to": "did:web:tuebor.primals.eco",
+    "metadata": {
+      "title": "content/analysis/enforcement-ecosystem.md \u2192 https://tuebor.primals.eco/analysis/enforcement-ecosystem/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "tuebor"
+      ],
+      "custom": {
+        "source_file": "content/analysis/enforcement-ecosystem.md",
+        "source_line": 16,
+        "target_url": "https://tuebor.primals.eco/analysis/enforcement-ecosystem/",
+        "target_hash": "1374bf965d82bf0e4ace0e8b28fa63b16b53aa8f2c6c075526cdc20b765f9288"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:6a04127ef0e7fa6f57fcb94c26e1ca1d",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:tuebor.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:barry:sitting-in-a-tree",
+        "hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    ],
+    "was_attributed_to": "did:web:tuebor.primals.eco",
+    "metadata": {
+      "title": "content/analysis/sitting-in-a-tree.md \u2192 https://barry.primals.eco/analysis/sitting-in-a-tree/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "tuebor"
+      ],
+      "custom": {
+        "source_file": "content/analysis/sitting-in-a-tree.md",
+        "source_line": 10,
+        "target_url": "https://barry.primals.eco/analysis/sitting-in-a-tree/",
+        "target_hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:44d2a150e918369cd33db843f71b0007",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:tuebor.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:barry:tommy-boy",
+        "hash": "44d2a150e918369cd33db843f71b0007024066749da47b707e08540a20b97fff"
+      }
+    ],
+    "was_attributed_to": "did:web:tuebor.primals.eco",
+    "metadata": {
+      "title": "content/analysis/tommy-boy.md \u2192 https://barry.primals.eco/analysis/tommy-boy/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "tuebor"
+      ],
+      "custom": {
+        "source_file": "content/analysis/tommy-boy.md",
+        "source_line": 10,
+        "target_url": "https://barry.primals.eco/analysis/tommy-boy/",
+        "target_hash": "44d2a150e918369cd33db843f71b0007024066749da47b707e08540a20b97fff"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:c1fc3e5ec972396f02e3afae76ee245f",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:tuebor.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:tuebor:they-banked-on-banks",
+        "hash": "c1fc3e5ec972396f02e3afae76ee245f363b26d9bb1c95e21010d15de2905e88"
+      }
+    ],
+    "was_attributed_to": "did:web:tuebor.primals.eco",
+    "metadata": {
+      "title": "content/analysis/signal-permeability.md \u2192 https://tuebor.primals.eco/analysis/they-banked-on-banks/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "tuebor"
+      ],
+      "custom": {
+        "source_file": "content/analysis/signal-permeability.md",
+        "source_line": 16,
+        "target_url": "https://tuebor.primals.eco/analysis/they-banked-on-banks/",
+        "target_hash": "c1fc3e5ec972396f02e3afae76ee245f363b26d9bb1c95e21010d15de2905e88"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:c166f83db17e2548f68f20455541ad1e",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:tuebor.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:barry:hey-mikey",
+        "hash": "c166f83db17e2548f68f20455541ad1e010f840a71f0b16ea2b27e2f92ab282a"
+      }
+    ],
+    "was_attributed_to": "did:web:tuebor.primals.eco",
+    "metadata": {
+      "title": "content/analysis/hey-mikey.md \u2192 https://barry.primals.eco/analysis/hey-mikey/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "tuebor"
+      ],
+      "custom": {
+        "source_file": "content/analysis/hey-mikey.md",
+        "source_line": 10,
+        "target_url": "https://barry.primals.eco/analysis/hey-mikey/",
+        "target_hash": "c166f83db17e2548f68f20455541ad1e010f840a71f0b16ea2b27e2f92ab282a"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:c1fc3e5ec972396f02e3afae76ee245f",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:tuebor.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:tuebor:they-banked-on-banks",
+        "hash": "c1fc3e5ec972396f02e3afae76ee245f363b26d9bb1c95e21010d15de2905e88"
+      }
+    ],
+    "was_attributed_to": "did:web:tuebor.primals.eco",
+    "metadata": {
+      "title": "content/analysis/they-banked-on-banks.md \u2192 https://tuebor.primals.eco/analysis/they-banked-on-banks/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "tuebor"
+      ],
+      "custom": {
+        "source_file": "content/analysis/they-banked-on-banks.md",
+        "source_line": 16,
+        "target_url": "https://tuebor.primals.eco/analysis/they-banked-on-banks/",
+        "target_hash": "c1fc3e5ec972396f02e3afae76ee245f363b26d9bb1c95e21010d15de2905e88"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:21e02dd564bccc817e5f5444c014a8ba",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:tuebor.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:dykema-gossett",
+        "hash": "21e02dd564bccc817e5f5444c014a8ba84622c9f5575bb3c902341253706f7dd"
+      }
+    ],
+    "was_attributed_to": "did:web:tuebor.primals.eco",
+    "metadata": {
+      "title": "content/analysis/cross-subgraph-patterns.md \u2192 https://lansing.primals.eco/actors/dykema-gossett/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "tuebor"
+      ],
+      "custom": {
+        "source_file": "content/analysis/cross-subgraph-patterns.md",
+        "source_line": 121,
+        "target_url": "https://lansing.primals.eco/actors/dykema-gossett/",
+        "target_hash": "21e02dd564bccc817e5f5444c014a8ba84622c9f5575bb3c902341253706f7dd"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:8909b9c76cc3207da5e5c126a7c840f9",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:lansing:capital-kernel",
+        "hash": "8909b9c76cc3207da5e5c126a7c840f9c5126183a6be53c15b1d0add2558f1a3"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "content/analysis/leak-in-the-dyke.md \u2192 https://lansing.primals.eco/analysis/capital-kernel/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "detroit"
+      ],
+      "custom": {
+        "source_file": "content/analysis/leak-in-the-dyke.md",
+        "source_line": 247,
+        "target_url": "https://lansing.primals.eco/analysis/capital-kernel/",
+        "target_hash": "8909b9c76cc3207da5e5c126a7c840f9c5126183a6be53c15b1d0add2558f1a3"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:6a04127ef0e7fa6f57fcb94c26e1ca1d",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:barry:sitting-in-a-tree",
+        "hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "content/analysis/leak-in-the-dyke.md \u2192 https://barry.primals.eco/analysis/sitting-in-a-tree/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "detroit"
+      ],
+      "custom": {
+        "source_file": "content/analysis/leak-in-the-dyke.md",
+        "source_line": 247,
+        "target_url": "https://barry.primals.eco/analysis/sitting-in-a-tree/",
+        "target_hash": "6a04127ef0e7fa6f57fcb94c26e1ca1d31976b59db243238f1339dcdf66e3a13"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:1374bf965d82bf0e4ace0e8b28fa63b1",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:tuebor:enforcement-ecosystem",
+        "hash": "1374bf965d82bf0e4ace0e8b28fa63b16b53aa8f2c6c075526cdc20b765f9288"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "content/analysis/anderson-permeability.md \u2192 https://tuebor.primals.eco/analysis/enforcement-ecosystem/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "detroit"
+      ],
+      "custom": {
+        "source_file": "content/analysis/anderson-permeability.md",
+        "source_line": 156,
+        "target_url": "https://tuebor.primals.eco/analysis/enforcement-ecosystem/",
+        "target_hash": "1374bf965d82bf0e4ace0e8b28fa63b16b53aa8f2c6c075526cdc20b765f9288"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:1374bf965d82bf0e4ace0e8b28fa63b1",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:tuebor:enforcement-ecosystem",
+        "hash": "1374bf965d82bf0e4ace0e8b28fa63b16b53aa8f2c6c075526cdc20b765f9288"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "content/analysis/anderson-permeability.md \u2192 https://tuebor.primals.eco/analysis/enforcement-ecosystem/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "detroit"
+      ],
+      "custom": {
+        "source_file": "content/analysis/anderson-permeability.md",
+        "source_line": 262,
+        "target_url": "https://tuebor.primals.eco/analysis/enforcement-ecosystem/",
+        "target_hash": "1374bf965d82bf0e4ace0e8b28fa63b16b53aa8f2c6c075526cdc20b765f9288"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:1374bf965d82bf0e4ace0e8b28fa63b1",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:tuebor:enforcement-ecosystem",
+        "hash": "1374bf965d82bf0e4ace0e8b28fa63b16b53aa8f2c6c075526cdc20b765f9288"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "content/evidence/agency-referrals.md \u2192 https://tuebor.primals.eco/analysis/enforcement-ecosystem/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "detroit"
+      ],
+      "custom": {
+        "source_file": "content/evidence/agency-referrals.md",
+        "source_line": 130,
+        "target_url": "https://tuebor.primals.eco/analysis/enforcement-ecosystem/",
+        "target_hash": "1374bf965d82bf0e4ace0e8b28fa63b16b53aa8f2c6c075526cdc20b765f9288"
+      }
+    }
+  },
+  {
+    "data_hash": "blake3:link:356ac8298e3e60f2812d4c668a99d57c",
+    "mime_type": "text/markdown",
+    "braided_at": "2026-10-10T02:27:43Z",
+    "was_generated_by": {
+      "agent": "did:web:detroit.primals.eco",
+      "plan": "cross-site link verification",
+      "software": "verify-links/0.1.0"
+    },
+    "was_derived_from": [
+      {
+        "id": "urn:content:tuebor:institutional-immunity",
+        "hash": "356ac8298e3e60f2812d4c668a99d57cae34bd9dd2802e213957d29367728045"
+      }
+    ],
+    "was_attributed_to": "did:web:detroit.primals.eco",
+    "metadata": {
+      "title": "content/evidence/agency-referrals.md \u2192 https://tuebor.primals.eco/analysis/institutional-immunity/",
+      "tags": [
+        "cross-site",
+        "verified",
+        "detroit"
+      ],
+      "custom": {
+        "source_file": "content/evidence/agency-referrals.md",
+        "source_line": 132,
+        "target_url": "https://tuebor.primals.eco/analysis/institutional-immunity/",
+        "target_hash": "356ac8298e3e60f2812d4c668a99d57cae34bd9dd2802e213957d29367728045"
+      }
+    }
+  }
+]
