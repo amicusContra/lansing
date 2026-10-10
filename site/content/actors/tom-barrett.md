@@ -33,7 +33,7 @@ Barrett's campaign infrastructure connects directly to the Dykema Gossett capita
 
 **Dykema Gossett Federal PAC** (FEC [C00342113](https://www.fec.gov/data/committee/C00342113/)) contributed **{{ fact(registry="actors", key="barrett", field="dykema_pac_amount") }}** to Barrett's campaign.
 
-The same PAC gave to **{{ fact(registry="entities", key="dykema_federal_pac", field="candidate_count") }} candidates in both parties** — {{ fact(registry="entities", key="dykema_federal_pac", field="total_disbursed") }} total. The same law firm formed **Save Detroit Jobs**, whose {{ fact(registry="entities", key="sdj", field="expenditure") }} expenditure elected the council member who now sits on the board of a charter school run by a man with nine criminal convictions.
+The same PAC gave to **{{ fact(registry="entities", key="dykema_federal_pac", field="candidate_count") }} candidates in both parties** — {{ fact(registry="entities", key="dykema_federal_pac", field="total_disbursed") }} total. The same law firm formed **Save Detroit Jobs**, whose {{ fact(registry="entities", key="sdj", field="expenditure") }} expenditure elected the council member who now sits on the board of a charter school run by a man with {{ fact(registry="actors", key="banks", field="conviction_count") }} criminal convictions.
 
 Barrett's {{ fact(registry="actors", key="barrett", field="dykema_pac_amount") }} from Dykema PAC is not large. What matters is what it connects to: the entire dark money formation apparatus at 201 Townsend Street.
 
@@ -59,8 +59,8 @@ On **August 13, 2026**, Barrett called his opponent **William Lawrence** a **"co
 Lawrence's conviction: a **2013 pipeline protest** arrest. The conviction was **expunged** under Michigan's Clean Slate Act (MCL 780.623). It does not exist in the legal record.
 
 Meanwhile, Barrett's PAC donor infrastructure includes:
-- **Kenneth Daniels** — SDJ president, federal felon ($21M drug ring, DEA May 12, 2014)
-- **Brian Banks** — 9 criminal convictions (6 felony), connected via shared Dykema infrastructure
+- **Kenneth Daniels** — SDJ president, federal felon ({{ fact(registry="actors", key="daniels", field="ring_amount") }} drug ring, DEA May 12, 2014)
+- **Brian Banks** — {{ fact(registry="actors", key="banks", field="convictions") }}, connected via shared Dykema infrastructure
 
 Barrett called the water protector a felon. His own infrastructure tree is rooted in actual felons.
 

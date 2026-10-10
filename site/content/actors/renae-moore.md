@@ -33,7 +33,7 @@ If Wilk builds the vehicles, Moore drives all of them at once.
 
 ## February 26, 2025 — Under Oath
 
-On February 26, 2025, Renae Moore took the witness stand in Ingham County District Court. She was the first witness called in the preliminary examination of former Michigan House Speaker **Lee Chatfield**, who faces **13 felony charges** including embezzlement and conspiracy.
+On February 26, 2025, Renae Moore took the witness stand in Ingham County District Court. She was the first witness called in the preliminary examination of former Michigan House Speaker **Lee Chatfield**, who faces **{{ fact(registry="actors", key="chatfield", field="felony_count") }} felony charges** including embezzlement and conspiracy.
 
 Under oath, she testified to three things:
 
@@ -64,13 +64,13 @@ Moore simultaneously serves the defendant and the prosecutor's affiliated fund. 
 
 ## What 80 Accounts Means
 
-Eighty accounts is not a number. It is a **capacity**. One person cannot meaningfully monitor compliance across 80 dark money flows. What Moore provides is not oversight — it is **compliance theater**.
+{{ fact(registry="actors", key="moore", field="account_count") }} accounts is not a number. It is a **capacity**. One person cannot meaningfully monitor compliance across {{ fact(registry="actors", key="moore", field="account_count") }} dark money flows. What Moore provides is not oversight — it is **compliance theater**.
 
 The accounts share:
 - One compliance specialist (Moore)
 - One formation attorney (Wilk)
 - One law firm address (201 Townsend)
-- One phone number (517-374-9100)
+- One phone number ({{ fact(registry="entities", key="dykema", field="phone") }})
 
 This is not a compliance department. It is a scheduling problem.
 

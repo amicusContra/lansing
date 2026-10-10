@@ -19,7 +19,7 @@ connections = ["dark money", "formation", "compliance", "bipartisan infrastructu
 **Dykema Gossett PLLC** is Michigan's largest law firm. $200–300 million in annual revenue. Offices in six states and Washington, D.C.
 
 Headquarters: **201 Townsend Street, Lansing, MI 48933**.
-Phone: **517-374-9100**.
+Phone: **{{ fact(registry="entities", key="dykema", field="phone") }}**.
 One block from the Michigan State Capitol.
 
 Dykema is not a client. Dykema is not a contractor. Dykema is the **operating system** — the infrastructure layer underneath Michigan politics that persists across administrations, across parties, across decades.
@@ -48,15 +48,15 @@ All incorporated by **W. Alan Wilk** (Dykema Member, Team Leader Political Compl
 
 | Vehicle | Type | LARA ID | Key Fact |
 |---------|------|---------|----------|
-| **Save Detroit Jobs** | 501(c)(4) | 802002459 | Phone = Dykema phone. $84K → elected Johnson → PCA board |
+| **Save Detroit Jobs** | 501(c)(4) | {{ fact(registry="entities", key="sdj", field="lara_id") }} | Phone = Dykema phone. {{ fact(registry="entities", key="sdj", field="expenditure") }} → elected Johnson → PCA board |
 | **Our Neighborhoods First** | 501(c)(4) | — | Duggan dark money |
 | **Detroit Jobs First** | 501(c)(4) | — | Dark money vehicle |
-| **RFFW LLC** | LLC | — | $1M complaint — money laundering vehicle |
+| **RFFW LLC** | LLC | — | {{ fact(registry="entities", key="rffw", field="complaint_amount") }} complaint — money laundering vehicle |
 | **Put Progress First** | 501(c)(4) | — | Dark money vehicle |
 | **Michigan First Principles** | 501(c)(4) | — | Dark money vehicle |
 | **Peninsula Fund** | 501(c)(4) | — | Chatfield dark money — Moore compliance |
 
-SDJ phone number: **517-374-9100** — the same number as Dykema's Lansing switchboard.
+SDJ phone number: **{{ fact(registry="entities", key="dykema", field="phone") }}** — the same number as Dykema's Lansing switchboard.
 SDJ compliance email: **compliance@dykema.com**.
 SDJ IRS filing lists Dykema's office phone.
 
@@ -70,7 +70,7 @@ These are not separate organizations. They are Dykema processes wearing 501(c)(4
 - {{ fact(registry="entities", key="dykema_federal_pac", field="total_disbursed") }} to {{ fact(registry="entities", key="dykema_federal_pac", field="candidate_count") }} candidates
 - Both parties
 - Barrett: {{ fact(registry="actors", key="barrett", field="dykema_pac_amount") }}
-- John James: $4,000 (while Wilk's SDJ vehicle **attacked** James)
+- John James: {{ fact(registry="actors", key="barrett", field="dykema_pac_amount") }} (while Wilk's SDJ vehicle **attacked** James)
 
 **Dykema Gossett State PAC** (TransparencyUSA):
 - {{ fact(registry="entities", key="dykema_state_pac", field="total_since_2017") }} since 2017
@@ -97,8 +97,8 @@ These are not separate organizations. They are Dykema processes wearing 501(c)(4
 - Phone: {{ fact(registry="actors", key="moore", field="phone") }}
 - Email: {{ fact(registry="actors", key="moore", field="email") }}
 - Testified **February 26, 2025** in Chatfield preliminary examination
-- Under oath: manages **80+ accounts**
-- Simultaneous roles across **6+ entities** (SDJ, ONF, DJF, RFFW, Peninsula Fund, Promise to the People)
+- Under oath: manages **{{ fact(registry="actors", key="moore", field="account_count") }} accounts**
+- Simultaneous roles across **{{ fact(registry="actors", key="moore", field="entity_roles") }} entities** (SDJ, ONF, DJF, RFFW, Peninsula Fund, Promise to the People)
 - Dual role: compliance for **Peninsula Fund** (defendant) while on **Promise to the People Fund** (AG-affiliated)
 - [Full profile →](/actors/renae-moore/)
 
@@ -113,8 +113,8 @@ These are not separate organizations. They are Dykema processes wearing 501(c)(4
 | 1997 | Dykema defends PA 362 at MI Supreme Court |
 | 2011 | NERD Fund compliance (Wilk) |
 | 2015 | Garcia v. Title Check — Ellison sanctioned $73,752.45 |
-| 2017+ | State PAC: $725K+ bipartisan |
-| 2026 | Moore testifies to 80+ accounts under oath |
+| 2017+ | State PAC: {{ fact(registry="entities", key="dykema_state_pac", field="total_since_2017") }} bipartisan |
+| 2026 | Moore testifies to {{ fact(registry="actors", key="moore", field="account_count") }} accounts under oath |
 | Present | Federal PAC active. SDJ active. Investigation ongoing. |
 
 Full chronology: [Dykema Chronology — detroit.primals.eco](https://detroit.primals.eco/analysis/dykema-chronology/)

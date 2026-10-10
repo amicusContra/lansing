@@ -64,7 +64,7 @@ When asked by media: **"Not authorized to speak to the press."**
 
 ## Cross-Reference
 
-- **Leak in the Dyke**: [detroit.primals.eco](https://detroit.primals.eco/analysis/leak-in-the-dyke/) — seven vehicles exposed
+- **Leak in the Dyke**: [detroit.primals.eco](https://detroit.primals.eco/analysis/leak-in-the-dyke/) — {{ fact(registry="actors", key="wilk", field="vehicle_count") }} vehicles exposed
 - **Sitting in a Tree**: [barry.primals.eco](https://barry.primals.eco/analysis/sitting-in-a-tree/) — Wilk as formation kernel
 - **Dykema Gossett**: [lansing.primals.eco](/actors/dykema-gossett/) — the five-level stack
 - **Renae Moore**: [lansing.primals.eco](/actors/renae-moore/) — the compliance half

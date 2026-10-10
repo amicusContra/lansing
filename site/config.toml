@@ -94,6 +94,25 @@ short = "Tremblay"
 role = "30th Circuit Court, Ingham County"
 tier = 3
 page = "/actors/judge-tremblay/"
+overlap_years = "18"
+overlap_source = "Ingham County Bar / campaign finance records"
+
+[extra.actors.banks]
+display = "Brian Roderick Banks"
+short = "Banks"
+role = "9 convictions, charter school operator"
+tier = 2
+convictions = "9 criminal convictions (6 felony, 3 misdemeanor)"
+conviction_count = "9"
+conviction_source = "ICHAT SID 2029469K"
+
+[extra.actors.daniels]
+display = "Kenneth Daniels"
+short = "Daniels"
+role = "SDJ president, federal felon"
+tier = 3
+ring_amount = "$21M"
+ring_source = "DEA May 12, 2014"
 
 [extra.actors.chatfield]
 display = "Lee Chatfield"

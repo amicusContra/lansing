@@ -16,10 +16,10 @@ keywords = "Dykema Gossett timeline, Dykema chronology, Michigan dark money time
 | 1997 | Dykema defends PA 362 at MI Supreme Court | Court record |
 | 2011 | NERD Fund compliance (Wilk) | Campaign finance records |
 | 2015 | Garcia v. Title Check — Ellison sanctioned $73,752.45 | Court record |
-| 2017+ | Dykema State PAC: $725K+ bipartisan | TransparencyUSA |
+| 2017+ | Dykema State PAC: {{ fact(registry="entities", key="dykema_state_pac", field="total_since_2017") }} bipartisan | TransparencyUSA |
 | 2022 | Banks dissertation lists fabricated credential | Walden University |
-| 2024 | Chatfield charged — 13 felonies | Ingham County |
-| Feb 2025 | Moore testifies to 80+ accounts under oath | Court testimony |
+| 2024 | Chatfield charged — {{ fact(registry="actors", key="chatfield", field="felony_count") }} felonies | Ingham County |
+| Feb 2025 | Moore testifies to {{ fact(registry="actors", key="moore", field="account_count") }} accounts under oath | Court testimony |
 | Aug 2026 | Barrett calls Lawrence "convicted felon" (expunged) | Campaign records |
 | Sep 2026 | Banks PPO — Tremblay recuses, Ingham County | Court record |
 | Oct 2026 | Leak in the Dyke published | [detroit.primals.eco](https://detroit.primals.eco/analysis/leak-in-the-dyke/) |

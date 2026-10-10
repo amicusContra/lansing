@@ -12,11 +12,11 @@ One block from the Michigan State Capitol, at **201 Townsend Street, Lansing**, 
 
 Dykema doesn't pick sides. It grows branches for whoever pays.
 
-In 1993, Dykema drafted Public Act 362 — the charter school law. In 1997, Dykema defended it at the Michigan Supreme Court. Today, Dykema represents authorizers, forms dark money vehicles, runs PAC compliance for both parties, and employs the woman who testified under oath to managing **eighty dark money accounts**.
+In 1993, Dykema drafted Public Act 362 — the charter school law. In 1997, Dykema defended it at the Michigan Supreme Court. Today, Dykema represents authorizers, forms dark money vehicles, runs PAC compliance for both parties, and employs the woman who testified under oath to managing **{{ fact(registry="actors", key="moore", field="account_count") }} dark money accounts**.
 
-One firm. One address. One phone number: **517-374-9100**.
+One firm. One address. One phone number: **{{ fact(registry="entities", key="dykema", field="phone") }}**.
 
-The same phone number appears on the IRS filing for **Save Detroit Jobs** — the 501(c)(4) whose $84,000 expenditure elected the council member who now sits on the board of a charter school run by a man with **nine criminal convictions**.
+The same phone number appears on the IRS filing for **Save Detroit Jobs** — the 501(c)(4) whose {{ fact(registry="entities", key="sdj", field="expenditure") }} expenditure elected the council member who now sits on the board of a charter school run by a man with **{{ fact(registry="actors", key="banks", field="conviction_count") }} criminal convictions**.
 
 ---
 
@@ -26,7 +26,7 @@ Three nodes seed this graph. Each one connects back to 201 Townsend.
 
 | Actor | Role | Dykema Connection |
 |-------|------|-------------------|
-| **[Tom Barrett](/actors/tom-barrett/)** | U.S. House MI-7 (R) | Dykema Federal PAC → $4,000 (FEC C00342113) |
+| **[Tom Barrett](/actors/tom-barrett/)** | U.S. House MI-7 (R) | Dykema Federal PAC → {{ fact(registry="actors", key="barrett", field="dykema_pac_amount") }} ({{ fact(registry="actors", key="barrett", field="dykema_pac_source") }}) |
 | **[Dykema Gossett](/actors/dykema-gossett/)** | MI's largest law firm | The trunk. Forms, staffs, and operates dark money vehicles from its own office. |
 | **[Judge Tremblay](/actors/judge-tremblay/)** | 30th Circuit Court, Ingham County | Recused from Banks PPO. 18yr overlap with Lansing campaign finance world. |
 

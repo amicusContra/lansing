@@ -43,12 +43,12 @@ Dykema represents **charter authorizers** — the entities that grant and renew 
 
 Save Detroit Jobs. Our Neighborhoods First. Detroit Jobs First. RFFW LLC. Put Progress First. Michigan First Principles. Peninsula Fund. All Wilk. All Dykema.
 
-SDJ's phone number — **517-374-9100** — is Dykema's switchboard. SDJ's compliance email is **compliance@dykema.com**. The IRS filing lists Dykema's office phone.
+SDJ's phone number — **{{ fact(registry="entities", key="dykema", field="phone") }}** — is Dykema's switchboard. SDJ's compliance email is **compliance@dykema.com**. The IRS filing lists Dykema's office phone.
 
 ### Level 5: PAC Compliance
 **Renae Moore**, Dykema's Senior Compliance Specialist, manages the financial compliance for these vehicles plus the Federal and State PACs. On **February 26, 2025**, under oath in the Chatfield preliminary examination, she testified to managing **{{ fact(registry="actors", key="moore", field="account_count") }} accounts**.
 
-Eighty accounts. One person. One desk at 201 Townsend.
+{{ fact(registry="actors", key="moore", field="account_count") }} accounts. One person. One desk at 201 Townsend.
 
 ---
 

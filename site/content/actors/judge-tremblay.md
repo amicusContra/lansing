@@ -33,7 +33,7 @@ She is the judicial node connecting the Dykema capital infrastructure to the Ban
 
 Tremblay **recused** from the **Banks PPO** case in Ingham County.
 
-The graph records the rationale: proximity to the Dykema/Lansing political compliance world. An 18-year overlap in Lansing campaign finance makes independence difficult to maintain when the subject's infrastructure is Dykema's infrastructure.
+The graph records the rationale: proximity to the Dykema/Lansing political compliance world. A {{ fact(registry="actors", key="tremblay", field="overlap_years") }}-year overlap in Lansing campaign finance makes independence difficult to maintain when the subject's infrastructure is Dykema's infrastructure.
 
 **Status**: The recusal is on the court record. Primary source documentation for the recusal order is being compiled.
 
@@ -44,7 +44,7 @@ The graph records the rationale: proximity to the Dykema/Lansing political compl
 Two edges connect Tremblay to the Lansing infrastructure cluster:
 
 ### Dykema Gossett (inference)
-- 18-year overlap in Lansing campaign finance world
+- {{ fact(registry="actors", key="tremblay", field="overlap_years") }}-year overlap in Lansing campaign finance world
 - Ingham County Bar membership
 - House counsel while Dykema lobbied the legislature
 - **Epistemic status**: Inference — based on proximity and timing, labeled as such
