@@ -51,6 +51,18 @@ short = "Barrett"
 role = "U.S. House MI-7 (R)"
 tier = 1
 page = "/actors/tom-barrett/"
+dykema_pac_amount = "$4,000"
+dykema_pac_source = "FEC C00342113"
+afp_action_amount = "$477,780"
+afp_action_pct = "44.8%"
+afp_action_source = "FEC independent expenditure filings"
+nrcc_spend = "$6,300,000"
+nrcc_source = "FEC party committee filings"
+griffin_amount = "$7,000"
+griffin_source = "FEC individual contributions"
+schwarzman_note = "maxed out"
+roe_consulting = "$114,000+"
+roe_source = "FEC disbursements, Roe Strategic LLC"
 
 [extra.actors.wilk]
 display = "W. Alan Wilk"
@@ -58,6 +70,10 @@ short = "Wilk"
 role = "Dark money architect (Dykema)"
 tier = 2
 page = "/actors/w-alan-wilk/"
+vehicle_count = "7+"
+vehicle_source = "LARA entity filings"
+phone = "517-374-9122"
+email = "wawilk@dykema.com"
 
 [extra.actors.moore]
 display = "Renae Moore"
@@ -65,6 +81,12 @@ short = "Moore"
 role = "Compliance officer (Dykema)"
 tier = 2
 page = "/actors/renae-moore/"
+account_count = "80+"
+account_source = "Feb 26, 2025 sworn testimony, Ingham County District Court"
+phone = "517-374-9121"
+email = "rmoore@dykema.com"
+entity_roles = "6+"
+entity_roles_source = "LARA filings, court testimony"
 
 [extra.actors.tremblay]
 display = "Judge Patricia Tremblay"
@@ -78,6 +100,8 @@ display = "Lee Chatfield"
 short = "Chatfield"
 role = "Former House Speaker, 13 felony charges"
 tier = 2
+felony_count = "13"
+felony_source = "Ingham County criminal charges"
 
 [extra.actors.keel]
 display = "Aaron Keel"
@@ -99,17 +123,28 @@ display = "Dykema Gossett Federal PAC"
 short = "Dykema Fed PAC"
 type = "PAC"
 fec_id = "C00342113"
+total_disbursed = "$131,000"
+candidate_count = "47"
+candidate_parties = "both"
+total_source = "FEC C00342113"
 
 [extra.entities.dykema_state_pac]
 display = "Dykema Gossett State PAC"
 short = "Dykema State PAC"
 type = "PAC"
+total_since_2017 = "$725,000+"
+total_source = "TransparencyUSA"
+duggan_amount = "$13,500"
+yancey_amount = "$250"
 
 [extra.entities.sdj]
 display = "Save Detroit Jobs"
 short = "SDJ"
 type = "501(c)(4)"
 lara_id = "802002459"
+phone = "517-374-9100"
+expenditure = "$84,000"
+expenditure_source = "IRS 990, TransparencyUSA"
 
 [extra.entities.peninsula_fund]
 display = "Peninsula Fund"
@@ -120,3 +155,5 @@ type = "501(c)(4)"
 display = "RFFW LLC"
 short = "RFFW"
 type = "LLC"
+complaint_amount = "$1,000,000"
+complaint_source = "Campaign finance complaint"

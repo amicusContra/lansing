@@ -24,8 +24,8 @@ connections = ["dark money", "formation", "RNLA", "revolving door", "bipartisan 
 
 **W. Alan Wilk** is a Member and Team Leader of Political Compliance at **Dykema Gossett PLLC**, 201 Townsend Street, Lansing.
 
-- Phone: **517-374-9122**
-- Email: **wawilk@dykema.com**
+- Phone: **{{ fact(registry="actors", key="wilk", field="phone") }}**
+- Email: **{{ fact(registry="actors", key="wilk", field="email") }}**
 - **RNLA member** (Republican National Lawyers Association)
 
 Wilk doesn't run campaigns. He **builds the vehicles** they ride in.

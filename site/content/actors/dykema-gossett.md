@@ -67,14 +67,14 @@ These are not separate organizations. They are Dykema processes wearing 501(c)(4
 ## The PACs
 
 **Dykema Gossett Federal PAC** (FEC [C00342113](https://www.fec.gov/data/committee/C00342113/)):
-- $131,000 to 47 candidates
+- {{ fact(registry="entities", key="dykema_federal_pac", field="total_disbursed") }} to {{ fact(registry="entities", key="dykema_federal_pac", field="candidate_count") }} candidates
 - Both parties
-- Barrett: $4,000
+- Barrett: {{ fact(registry="actors", key="barrett", field="dykema_pac_amount") }}
 - John James: $4,000 (while Wilk's SDJ vehicle **attacked** James)
 
 **Dykema Gossett State PAC** (TransparencyUSA):
-- $725,000+ since 2017
-- Bipartisan: Duggan ($13,500), Yancey ($250), both parties' legislative candidates
+- {{ fact(registry="entities", key="dykema_state_pac", field="total_since_2017") }} since 2017
+- Bipartisan: Duggan ({{ fact(registry="entities", key="dykema_state_pac", field="duggan_amount") }}), Yancey ({{ fact(registry="entities", key="dykema_state_pac", field="yancey_amount") }}), both parties' legislative candidates
 - The PAC that funds both sides of the aisle
 
 ---
@@ -83,10 +83,10 @@ These are not separate organizations. They are Dykema processes wearing 501(c)(4
 
 ### W. Alan Wilk
 - **Member, Team Leader Political Compliance**
-- Phone: 517-374-9122
-- Email: wawilk@dykema.com
+- Phone: {{ fact(registry="actors", key="wilk", field="phone") }}
+- Email: {{ fact(registry="actors", key="wilk", field="email") }}
 - **RNLA member**
-- Incorporator of **7+ dark money vehicles**
+- Incorporator of **{{ fact(registry="actors", key="wilk", field="vehicle_count") }} dark money vehicles**
 - Duggan campaign lawyer
 - Chatfield/Snyder dark money operations
 - "Not authorized to speak to the press"
@@ -94,8 +94,8 @@ These are not separate organizations. They are Dykema processes wearing 501(c)(4
 
 ### Renae Moore
 - **Senior Compliance Specialist**
-- Phone: 517-374-9121
-- Email: rmoore@dykema.com
+- Phone: {{ fact(registry="actors", key="moore", field="phone") }}
+- Email: {{ fact(registry="actors", key="moore", field="email") }}
 - Testified **February 26, 2025** in Chatfield preliminary examination
 - Under oath: manages **80+ accounts**
 - Simultaneous roles across **6+ entities** (SDJ, ONF, DJF, RFFW, Peninsula Fund, Promise to the People)

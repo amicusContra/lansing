@@ -39,14 +39,14 @@ In 1997, when PA 362 was challenged, Dykema defended it at the **Michigan Suprem
 Dykema represents **charter authorizers** — the entities that grant and renew charter school operating agreements. The firm that wrote the law, defended the law, now represents the entities empowered by the law.
 
 ### Level 4: Entity Formation
-**W. Alan Wilk**, Dykema's Team Leader of Political Compliance, has incorporated **seven or more dark money vehicles** from the firm's Lansing office. Each one is a 501(c)(4) or LLC registered at or through 201 Townsend Street.
+**W. Alan Wilk**, Dykema's Team Leader of Political Compliance, has incorporated **{{ fact(registry="actors", key="wilk", field="vehicle_count") }} dark money vehicles** from the firm's Lansing office. Each one is a 501(c)(4) or LLC registered at or through 201 Townsend Street.
 
 Save Detroit Jobs. Our Neighborhoods First. Detroit Jobs First. RFFW LLC. Put Progress First. Michigan First Principles. Peninsula Fund. All Wilk. All Dykema.
 
 SDJ's phone number — **517-374-9100** — is Dykema's switchboard. SDJ's compliance email is **compliance@dykema.com**. The IRS filing lists Dykema's office phone.
 
 ### Level 5: PAC Compliance
-**Renae Moore**, Dykema's Senior Compliance Specialist, manages the financial compliance for these vehicles plus the Federal and State PACs. On **February 26, 2025**, under oath in the Chatfield preliminary examination, she testified to managing **80+ accounts**.
+**Renae Moore**, Dykema's Senior Compliance Specialist, manages the financial compliance for these vehicles plus the Federal and State PACs. On **February 26, 2025**, under oath in the Chatfield preliminary examination, she testified to managing **{{ fact(registry="actors", key="moore", field="account_count") }} accounts**.
 
 Eighty accounts. One person. One desk at 201 Townsend.
 
@@ -54,7 +54,7 @@ Eighty accounts. One person. One desk at 201 Townsend.
 
 ## The Bipartisan Proof
 
-The Federal PAC (FEC [C00342113](https://www.fec.gov/data/committee/C00342113/)) gave **$131,000 to 47 candidates** — both parties. The State PAC gave **$725,000+** since 2017 — including $13,500 to Duggan and $250 to Yancey.
+The Federal PAC (FEC [C00342113](https://www.fec.gov/data/committee/C00342113/)) gave **{{ fact(registry="entities", key="dykema_federal_pac", field="total_disbursed") }} to {{ fact(registry="entities", key="dykema_federal_pac", field="candidate_count") }} candidates** — both parties. The State PAC gave **{{ fact(registry="entities", key="dykema_state_pac", field="total_since_2017") }}** since 2017 — including {{ fact(registry="entities", key="dykema_state_pac", field="duggan_amount") }} to Duggan and {{ fact(registry="entities", key="dykema_state_pac", field="yancey_amount") }} to Yancey.
 
 This is not partisan infrastructure. This is **bipartisan infrastructure** — and that is what makes it an operating system. It doesn't care which party is in power. It provides the formation-compliance layer that both parties run on.
 
@@ -78,9 +78,9 @@ From 201 Townsend Street, the infrastructure reaches:
 
 | Direction | Connection | Evidence |
 |-----------|-----------|----------|
-| **→ Barrett** | Federal PAC $4,000 | FEC C00342113 |
+| **→ Barrett** | Federal PAC {{ fact(registry="actors", key="barrett", field="dykema_pac_amount") }} | {{ fact(registry="actors", key="barrett", field="dykema_pac_source") }} |
 | **→ Rogers** | Federal PAC contribution | FEC |
-| **→ Banks** | SDJ → $84K → Johnson → PCA board | LARA, IRS 990 |
+| **→ Banks** | SDJ → {{ fact(registry="entities", key="sdj", field="expenditure") }} → Johnson → PCA board | {{ fact(registry="entities", key="sdj", field="expenditure_source") }} |
 | **→ Chatfield** | Peninsula Fund compliance | Court testimony |
 | **→ Duggan** | ONF formation + State PAC $13,500 | LARA, TransparencyUSA |
 | **→ Tremblay** | Professional proximity (18yr) | Inference, labeled |

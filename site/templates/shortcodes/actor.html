@@ -1,0 +1,4 @@
+{# Render a linked actor display name from the registry.
+   Usage: {{ actor(key="barrett") }}
+   Links to the actor's page if one exists. #}
+{% set a = config.extra.actors[key] %}{% if a.page %}<a href="{{ a.page }}">{{ a.display }}</a>{% else %}{{ a.display }}{% endif %}

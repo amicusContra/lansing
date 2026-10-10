@@ -24,8 +24,8 @@ connections = ["compliance", "dark money", "dual role", "Chatfield testimony"]
 
 **Renae Moore** is a Senior Compliance Specialist at **Dykema Gossett PLLC**, 201 Townsend Street, Lansing.
 
-- Phone: **517-374-9121**
-- Email: **rmoore@dykema.com**
+- Phone: **{{ fact(registry="actors", key="moore", field="phone") }}**
+- Email: **{{ fact(registry="actors", key="moore", field="email") }}**
 
 If Wilk builds the vehicles, Moore drives all of them at once.
 
@@ -37,7 +37,7 @@ On February 26, 2025, Renae Moore took the witness stand in Ingham County Distri
 
 Under oath, she testified to three things:
 
-1. She manages the compliance for **80+ accounts** — dark money vehicles, PACs, campaign committees
+1. She manages the compliance for **{{ fact(registry="actors", key="moore", field="account_count") }} accounts** — dark money vehicles, PACs, campaign committees
 2. She had **no duty to report** how money was spent (including strip-club expenses)
 3. The **Peninsula Fund** had compliance issues she was aware of
 
