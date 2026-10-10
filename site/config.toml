@@ -1,0 +1,122 @@
+base_url = "https://lansing.primals.eco"
+title = "Lansing — Capital Infrastructure Record"
+description = "The operating system underneath Michigan politics runs from 201 Townsend Street. Dykema Gossett, dark money vehicles, PAC compliance, recusals. Every claim sourced to FEC filings, LARA records, IRS 990 data, and court dockets."
+compile_sass = false
+build_search_index = true
+generate_feeds = true
+feed_filenames = ["atom.xml"]
+generate_sitemap = true
+minify_html = true
+
+[link_checker]
+external_level = "warn"
+skip_prefixes = [
+    "https://mibusinessregistry.lara.state.mi.us",
+    "https://apps.michigan.gov/ichat",
+    "https://cfrs.michigan.gov",
+    "https://www.michbar.org",
+    "https://eu.freep.com",
+    "https://www.freep.com",
+    "https://www.detroitnews.com",
+]
+
+[[taxonomies]]
+name = "actors"
+feed = true
+
+[[taxonomies]]
+name = "entities"
+feed = true
+
+[[taxonomies]]
+name = "connections"
+
+[markdown]
+smart_punctuation = true
+
+[search]
+include_title = true
+include_description = true
+include_content = true
+
+[extra]
+author = "Citizens of Michigan"
+repo_url = "https://github.com/amicusContra/lansing"
+contact_email = "hello@clutchjustice.com"
+
+# Actor registry — canonical facts for shortcodes
+[extra.actors.barrett]
+display = "Rep. Tom Barrett"
+short = "Barrett"
+role = "U.S. House MI-7 (R)"
+tier = 1
+page = "/actors/tom-barrett/"
+
+[extra.actors.wilk]
+display = "W. Alan Wilk"
+short = "Wilk"
+role = "Dark money architect (Dykema)"
+tier = 2
+page = "/actors/w-alan-wilk/"
+
+[extra.actors.moore]
+display = "Renae Moore"
+short = "Moore"
+role = "Compliance officer (Dykema)"
+tier = 2
+page = "/actors/renae-moore/"
+
+[extra.actors.tremblay]
+display = "Judge Patricia Tremblay"
+short = "Tremblay"
+role = "30th Circuit Court, Ingham County"
+tier = 3
+page = "/actors/judge-tremblay/"
+
+[extra.actors.chatfield]
+display = "Lee Chatfield"
+short = "Chatfield"
+role = "Former House Speaker, 13 felony charges"
+tier = 2
+
+[extra.actors.keel]
+display = "Aaron Keel"
+short = "Keel"
+role = "Dykema revolving door (MASB → House → Treasury → Dykema)"
+tier = 3
+
+# Entity registry
+[extra.entities.dykema]
+display = "Dykema Gossett PLLC"
+short = "Dykema"
+type = "Law firm"
+page = "/actors/dykema-gossett/"
+address = "201 Townsend Street, Lansing, MI"
+phone = "517-374-9100"
+
+[extra.entities.dykema_federal_pac]
+display = "Dykema Gossett Federal PAC"
+short = "Dykema Fed PAC"
+type = "PAC"
+fec_id = "C00342113"
+
+[extra.entities.dykema_state_pac]
+display = "Dykema Gossett State PAC"
+short = "Dykema State PAC"
+type = "PAC"
+
+[extra.entities.sdj]
+display = "Save Detroit Jobs"
+short = "SDJ"
+type = "501(c)(4)"
+lara_id = "802002459"
+
+[extra.entities.peninsula_fund]
+display = "Peninsula Fund"
+short = "Peninsula Fund"
+type = "501(c)(4)"
+
+[extra.entities.rffw]
+display = "RFFW LLC"
+short = "RFFW"
+type = "LLC"

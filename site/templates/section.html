@@ -1,0 +1,58 @@
+{% extends "base.html" %}
+
+{% block title %}{{ section.title }} — {{ config.title }}{% endblock %}
+{% block description %}{{ section.description }}{% endblock %}
+
+{% block structured_data %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CollectionPage",
+  "name": "{{ section.title }}",
+  "description": "{{ section.description }}",
+  "url": "{{ current_url | safe }}",
+  "isPartOf": {
+    "@type": "WebSite",
+    "name": "{{ config.title }}",
+    "url": "{{ config.base_url | safe }}"
+  }
+}
+</script>
+{% endblock %}
+
+{% block content %}
+<article class="page-content">
+  <h1>{{ section.title }}</h1>
+  {{ section.content | safe }}
+
+  {% if section.subsections | length > 0 %}
+  <div class="section-grid">
+    {% for subsection_path in section.subsections %}
+      {% set subsection = get_section(path=subsection_path) %}
+      <a href="{{ subsection.permalink | safe }}" class="card">
+        <h3>{{ subsection.title }}</h3>
+        <p>{{ subsection.description }}</p>
+      </a>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if section.pages | length > 0 %}
+  <div class="section-grid">
+    {% for page in section.pages %}
+    <a href="{{ page.permalink | safe }}" class="card">
+      <h3>{{ page.title }}</h3>
+      <p>{{ page.description }}</p>
+      {% if page.taxonomies.connections %}
+      <div class="card-tags">
+        {% for tag in page.taxonomies.connections %}
+        <span class="tag">{{ tag }}</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </a>
+    {% endfor %}
+  </div>
+  {% endif %}
+</article>
+{% endblock %}

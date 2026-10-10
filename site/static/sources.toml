@@ -1,0 +1,26 @@
+[detroit]
+base = "https://detroit.primals.eco"
+
+[tuebor]
+base = "https://barry.primals.eco"
+
+[lansing]
+base = "https://lansing.primals.eco"
+
+[signal]
+base = "https://signal.primals.eco"
+
+[sporeprint]
+base = "https://sporeprint.primals.eco"
+
+[clutch_justice]
+base = "https://clutchjustice.com"
+
+[fec]
+base = "https://www.fec.gov"
+
+[lara]
+base = "https://mibusinessregistry.lara.state.mi.us"
+
+[transparency_usa]
+base = "https://www.transparencyusa.org"

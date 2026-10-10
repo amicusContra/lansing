@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}{{ term.name }} — {{ config.title }}{% endblock %}
+{% block content %}
+<article class="page-content">
+  <h1>{{ term.name }}</h1>
+  <p>Pages referencing <strong>{{ term.name }}</strong>:</p>
+  <div class="section-grid">
+    {% for page in term.pages %}
+    <a href="{{ page.permalink | safe }}" class="card">
+      <h3>{{ page.title }}</h3>
+      <p>{{ page.description }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</article>
+{% endblock %}

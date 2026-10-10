@@ -1,0 +1,407 @@
+{
+  "_generated": "2026-10-09T21:56:00Z",
+  "_source": "Lansing capital infrastructure graph — seed from detroit/tuebor cross-subgraph data",
+  "schema": "ecoPrimals/lansing-graph/v1",
+  "nodes": [
+    {
+      "id": "dykema",
+      "label": "Dykema Gossett",
+      "type": "entity",
+      "tier": 1,
+      "role": "Bipartisan operating system — MI's largest law firm",
+      "page": "/actors/dykema-gossett/",
+      "address": "201 Townsend Street, Lansing, MI 48933",
+      "phone": "517-374-9100"
+    },
+    {
+      "id": "dykema_federal_pac",
+      "label": "Dykema Gossett Federal PAC",
+      "type": "entity",
+      "tier": 2,
+      "role": "Federal political action committee",
+      "fec_id": "C00342113"
+    },
+    {
+      "id": "dykema_state_pac",
+      "label": "Dykema Gossett State PAC",
+      "type": "entity",
+      "tier": 2,
+      "role": "State political action committee — $725K+ bipartisan since 2017"
+    },
+    {
+      "id": "barrett",
+      "label": "Rep. Tom Barrett",
+      "type": "actor",
+      "tier": 1,
+      "role": "U.S. House MI-7 (R), Charlotte",
+      "page": "/actors/tom-barrett/"
+    },
+    {
+      "id": "tremblay",
+      "label": "Judge Patricia Tremblay",
+      "type": "actor",
+      "tier": 3,
+      "role": "30th Circuit Court, Ingham County",
+      "page": "/actors/judge-tremblay/",
+      "court": "30th Circuit Court"
+    },
+    {
+      "id": "wilk",
+      "label": "W. Alan Wilk",
+      "type": "actor",
+      "tier": 2,
+      "role": "Dark money architect — Team Leader, Political Compliance",
+      "page": "/actors/w-alan-wilk/",
+      "email": "wawilk@dykema.com",
+      "phone": "517-374-9122"
+    },
+    {
+      "id": "renae_moore",
+      "label": "Renae Moore",
+      "type": "actor",
+      "tier": 2,
+      "role": "Senior Compliance Specialist — 80+ accounts under oath",
+      "page": "/actors/renae-moore/",
+      "email": "rmoore@dykema.com",
+      "phone": "517-374-9121"
+    },
+    {
+      "id": "banks",
+      "label": "Brian Roderick Banks",
+      "type": "actor",
+      "tier": 2,
+      "role": "9 convictions, charter school operator",
+      "external": "https://detroit.primals.eco/network/actors/brian-banks/"
+    },
+    {
+      "id": "chatfield",
+      "label": "Lee Chatfield",
+      "type": "actor",
+      "tier": 2,
+      "role": "Former House Speaker, 13 felony charges"
+    },
+    {
+      "id": "sdj",
+      "label": "Save Detroit Jobs",
+      "type": "entity",
+      "tier": 2,
+      "role": "501(c)(4) — formed at Dykema Lansing office",
+      "lara_id": "802002459",
+      "phone": "517-374-9100"
+    },
+    {
+      "id": "onf",
+      "label": "Our Neighborhoods First",
+      "type": "entity",
+      "tier": 3,
+      "role": "Duggan dark money vehicle"
+    },
+    {
+      "id": "djf",
+      "label": "Detroit Jobs First",
+      "type": "entity",
+      "tier": 3,
+      "role": "Dark money vehicle"
+    },
+    {
+      "id": "rffw",
+      "label": "RFFW LLC",
+      "type": "entity",
+      "tier": 3,
+      "role": "$1M complaint — money laundering vehicle"
+    },
+    {
+      "id": "peninsula_fund",
+      "label": "Peninsula Fund",
+      "type": "entity",
+      "tier": 2,
+      "role": "Chatfield dark money — Moore compliance"
+    },
+    {
+      "id": "promise_to_the_people",
+      "label": "Promise to the People Fund",
+      "type": "entity",
+      "tier": 3,
+      "role": "AG-affiliated fund — Moore dual role"
+    },
+    {
+      "id": "afp_action",
+      "label": "AFP Action",
+      "type": "entity",
+      "tier": 2,
+      "role": "$477,780 IE for Barrett (44.8% of outside spending)"
+    },
+    {
+      "id": "nrcc",
+      "label": "NRCC",
+      "type": "entity",
+      "tier": 2,
+      "role": "$6.3M MI-7 spend"
+    },
+    {
+      "id": "jason_roe",
+      "label": "Jason Roe",
+      "type": "actor",
+      "tier": 3,
+      "role": "Roe Strategic LLC — Barrett senior advisor, $114K+",
+      "external": "https://barry.primals.eco/actors/jason-roe/"
+    },
+    {
+      "id": "rogers",
+      "label": "Mike Rogers",
+      "type": "actor",
+      "tier": 2,
+      "role": "U.S. Senate candidate (R)",
+      "external": "https://barry.primals.eco/analysis/hey-mikey/"
+    },
+    {
+      "id": "aaron_keel",
+      "label": "Aaron Keel",
+      "type": "actor",
+      "tier": 3,
+      "role": "MASB → House → Treasury → Dykema revolving door"
+    },
+    {
+      "id": "griffin",
+      "label": "Kenneth Griffin",
+      "type": "actor",
+      "tier": 3,
+      "role": "Citadel — cross-ticket donor (Barrett + Rogers)"
+    },
+    {
+      "id": "schwarzman",
+      "label": "Stephen Schwarzman",
+      "type": "actor",
+      "tier": 3,
+      "role": "Blackstone — cross-ticket donor (Barrett + Rogers)"
+    }
+  ],
+  "edges": [
+    {
+      "source": "wilk",
+      "target": "dykema",
+      "type": "employment",
+      "epistemic_status": "record",
+      "role": "Member, Team Leader Political Compliance"
+    },
+    {
+      "source": "renae_moore",
+      "target": "dykema",
+      "type": "employment",
+      "epistemic_status": "record",
+      "role": "Senior Compliance Specialist"
+    },
+    {
+      "source": "dykema",
+      "target": "dykema_federal_pac",
+      "type": "formation",
+      "epistemic_status": "record",
+      "note": "$131K to 47 candidates, both parties"
+    },
+    {
+      "source": "dykema",
+      "target": "dykema_state_pac",
+      "type": "formation",
+      "epistemic_status": "record",
+      "note": "$725K+ since 2017, bipartisan"
+    },
+    {
+      "source": "dykema_federal_pac",
+      "target": "barrett",
+      "type": "financial",
+      "epistemic_status": "record",
+      "amount": "$4,000",
+      "source_doc": "FEC C00342113"
+    },
+    {
+      "source": "dykema_federal_pac",
+      "target": "rogers",
+      "type": "financial",
+      "epistemic_status": "record",
+      "source_doc": "FEC"
+    },
+    {
+      "source": "wilk",
+      "target": "sdj",
+      "type": "formation",
+      "epistemic_status": "record",
+      "source_doc": "LARA 802002459"
+    },
+    {
+      "source": "wilk",
+      "target": "onf",
+      "type": "formation",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "wilk",
+      "target": "djf",
+      "type": "formation",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "wilk",
+      "target": "rffw",
+      "type": "formation",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "wilk",
+      "target": "peninsula_fund",
+      "type": "formation",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "renae_moore",
+      "target": "sdj",
+      "type": "governance",
+      "epistemic_status": "record",
+      "role": "Assistant Secretary"
+    },
+    {
+      "source": "renae_moore",
+      "target": "onf",
+      "type": "governance",
+      "epistemic_status": "record",
+      "role": "Compliance"
+    },
+    {
+      "source": "renae_moore",
+      "target": "rffw",
+      "type": "governance",
+      "epistemic_status": "record",
+      "role": "Treasurer"
+    },
+    {
+      "source": "renae_moore",
+      "target": "peninsula_fund",
+      "type": "governance",
+      "epistemic_status": "record",
+      "role": "Compliance"
+    },
+    {
+      "source": "renae_moore",
+      "target": "promise_to_the_people",
+      "type": "governance",
+      "epistemic_status": "record",
+      "note": "Dual role — AG-affiliated fund while AG prosecutes Chatfield"
+    },
+    {
+      "source": "dykema",
+      "target": "sdj",
+      "type": "formation",
+      "epistemic_status": "record",
+      "note": "SDJ phone = Dykema phone (517-374-9100). compliance@dykema.com."
+    },
+    {
+      "source": "sdj",
+      "target": "banks",
+      "type": "money_flow",
+      "epistemic_status": "corroborated",
+      "note": "SDJ $84K expenditure elected Latisha Johnson → PCA Board Secretary"
+    },
+    {
+      "source": "tremblay",
+      "target": "banks",
+      "type": "recusal",
+      "epistemic_status": "record",
+      "note": "Recused from Banks PPO in Ingham County"
+    },
+    {
+      "source": "tremblay",
+      "target": "dykema",
+      "type": "professional_proximity",
+      "epistemic_status": "inference",
+      "note": "18yr overlap in Lansing campaign finance world. Ingham County Bar."
+    },
+    {
+      "source": "aaron_keel",
+      "target": "tremblay",
+      "type": "professional_proximity",
+      "epistemic_status": "inference",
+      "note": "Both in House Democratic Caucus. Keel was Deputy CoS, Tremblay was Legal Counsel."
+    },
+    {
+      "source": "aaron_keel",
+      "target": "dykema",
+      "type": "employment",
+      "epistemic_status": "record",
+      "note": "MASB → House → Treasury → Dykema revolving door"
+    },
+    {
+      "source": "afp_action",
+      "target": "barrett",
+      "type": "financial",
+      "epistemic_status": "record",
+      "amount": "$477,780",
+      "note": "44.8% of outside spending in MI-7"
+    },
+    {
+      "source": "nrcc",
+      "target": "barrett",
+      "type": "amplification",
+      "epistemic_status": "record",
+      "amount": "$6.3M",
+      "note": "MI-7 spend including 'socialist felon' mailer"
+    },
+    {
+      "source": "jason_roe",
+      "target": "barrett",
+      "type": "employment",
+      "epistemic_status": "record",
+      "role": "Senior advisor",
+      "amount": "$114K+",
+      "source_doc": "FEC"
+    },
+    {
+      "source": "griffin",
+      "target": "barrett",
+      "type": "donation",
+      "epistemic_status": "record",
+      "amount": "$7,000"
+    },
+    {
+      "source": "schwarzman",
+      "target": "barrett",
+      "type": "donation",
+      "epistemic_status": "record",
+      "note": "Maxed out"
+    },
+    {
+      "source": "griffin",
+      "target": "rogers",
+      "type": "donation",
+      "epistemic_status": "record",
+      "note": "Via GLCF"
+    },
+    {
+      "source": "schwarzman",
+      "target": "rogers",
+      "type": "donation",
+      "epistemic_status": "record"
+    },
+    {
+      "source": "chatfield",
+      "target": "peninsula_fund",
+      "type": "governance",
+      "epistemic_status": "filed",
+      "note": "13 felony charges including embezzlement"
+    },
+    {
+      "source": "barrett",
+      "target": "banks",
+      "type": "smear",
+      "epistemic_status": "record",
+      "note": "'Convicted felon' rhetoric — projection via shared Dykema infrastructure"
+    }
+  ],
+  "epistemic_grammar": {
+    "description": "Every edge carries an epistemic status indicating evidence quality.",
+    "statuses": {
+      "record": "Verified in public records (FEC, LARA, court filings)",
+      "corroborated": "Multiple independent sources confirm",
+      "filed": "Filed in legal proceedings",
+      "inference": "Logical inference from proximity and timing — labeled as such"
+    }
+  }
+}

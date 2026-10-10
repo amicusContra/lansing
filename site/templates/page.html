@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+
+{% block title %}{{ page.title }} — {{ config.title }}{% endblock %}
+{% block description %}{{ page.description }}{% endblock %}
+
+{% block structured_data %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{ page.title }}",
+  "description": "{{ page.description }}",
+  "url": "{{ current_url | safe }}",
+  {% if page.date %}"datePublished": "{{ page.date }}",{% endif %}
+  {% if page.updated %}"dateModified": "{{ page.updated }}",{% endif %}
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ config.title }}"
+  },
+  "author": {
+    "@type": "Organization",
+    "name": "{{ config.extra.author }}"
+  },
+  "isAccessibleForFree": true,
+  "license": "https://creativecommons.org/licenses/by-sa/4.0/"
+}
+</script>
+
+{% if page.extra.person_name %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "{{ page.extra.person_name }}",
+  {% if page.extra.person_alternate_name %}"alternateName": "{{ page.extra.person_alternate_name }}",{% endif %}
+  {% if page.extra.person_description %}"description": "{{ page.extra.person_description }}",{% endif %}
+  {% if page.extra.person_job_title %}"jobTitle": "{{ page.extra.person_job_title }}",{% endif %}
+  {% if page.extra.person_works_for %}"worksFor": {"@type": "Organization", "name": "{{ page.extra.person_works_for }}"},{% endif %}
+  {% if page.extra.person_url %}"url": "{{ page.extra.person_url }}",{% endif %}
+  {% if page.extra.person_same_as %}"sameAs": {{ page.extra.person_same_as | json_encode() | safe }}{% endif %}
+}
+</script>
+{% endif %}
+
+{% if page.extra.claim_review %}
+<script type="application/ld+json">
+{{ page.extra.claim_review | safe }}
+</script>
+{% endif %}
+{% endblock %}
+
+{% block content %}
+<article class="page-content">
+  <h1>{{ page.title }}</h1>
+  {% if page.date %}
+  <time datetime="{{ page.date }}">{{ page.date | date(format="%B %e, %Y") }}</time>
+  {% endif %}
+
+  {{ page.content | safe }}
+
+  {% if page.taxonomies %}
+  <div class="taxonomy-pills">
+    {% if page.taxonomies.actors %}
+      {% for actor in page.taxonomies.actors %}
+      <a href="{{ get_taxonomy_url(kind='actors', name=actor) | safe }}" class="pill pill-actor">{{ actor }}</a>
+      {% endfor %}
+    {% endif %}
+    {% if page.taxonomies.entities %}
+      {% for entity in page.taxonomies.entities %}
+      <a href="{{ get_taxonomy_url(kind='entities', name=entity) | safe }}" class="pill pill-entity">{{ entity }}</a>
+      {% endfor %}
+    {% endif %}
+    {% if page.taxonomies.connections %}
+      {% for conn in page.taxonomies.connections %}
+      <a href="{{ get_taxonomy_url(kind='connections', name=conn) | safe }}" class="pill pill-conn">{{ conn }}</a>
+      {% endfor %}
+    {% endif %}
+  </div>
+  {% endif %}
+
+  <div class="provenance">
+    <p>Every claim sourced to public records. <a href="{{ config.extra.repo_url }}">View source</a>.</p>
+    <p>Cross-reference: <a href="https://detroit.primals.eco">detroit.primals.eco</a> · <a href="https://barry.primals.eco">barry.primals.eco</a></p>
+  </div>
+</article>
+{% endblock %}

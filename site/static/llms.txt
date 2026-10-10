@@ -1,0 +1,46 @@
+# Lansing — Capital Infrastructure Record
+
+> The operating system underneath Michigan politics runs from 201 Townsend Street.
+
+## About
+
+Lansing documents the capital infrastructure layer of Michigan politics — centered on Dykema Gossett PLLC, the state's largest law firm. Part of the [primals.eco evidence network](https://sporeprint.primals.eco).
+
+No third-party analytics. No cookies. No tracking pixels. Log-based observation only.
+
+## Sections
+
+- [Actors](https://lansing.primals.eco/actors/) — Key actors in the Lansing capital infrastructure
+- [Analysis](https://lansing.primals.eco/analysis/) — Infrastructure analysis and pattern documentation
+- [Evidence](https://lansing.primals.eco/evidence/) — Primary source evidence library
+- [Timeline](https://lansing.primals.eco/timeline/) — Chronology 1988–present
+
+## Actors
+
+- [Tom Barrett — U.S. House MI-7](https://lansing.primals.eco/actors/tom-barrett/): Dykema Federal PAC $4,000. AFP Action $477,780 (44.8%). Called opponent "convicted felon" over expunged conviction.
+- [Dykema Gossett — Michigan's Operating System](https://lansing.primals.eco/actors/dykema-gossett/): MI's largest law firm. 201 Townsend, Lansing. Drafted PA 362. Five-level stack. 7+ dark money vehicles. Federal PAC $131K to 47 candidates both parties. State PAC $725K+.
+- [Judge Patricia Tremblay — 30th Circuit Court](https://lansing.primals.eco/actors/judge-tremblay/): Ingham County. Recused from Banks PPO. 18yr overlap with Lansing campaign finance. Former House Dem Caucus Legal Counsel.
+- [W. Alan Wilk — Dark Money Architect](https://lansing.primals.eco/actors/w-alan-wilk/): Dykema Member, Team Leader Political Compliance. Incorporator of 7+ dark money vehicles. wawilk@dykema.com.
+- [Renae Moore — 80 Accounts Under Oath](https://lansing.primals.eco/actors/renae-moore/): Dykema Senior Compliance Specialist. Testified Feb 26, 2025. 80+ accounts. 6 simultaneous entity roles. rmoore@dykema.com.
+
+## Analysis
+
+- [The Capital Kernel](https://lansing.primals.eco/analysis/capital-kernel/): Dykema Gossett as infrastructure — the five-level stack from legislative drafting to PAC compliance. Formation-compliance kernel. Bipartisan proof. Who has root access?
+
+## Evidence Network
+
+| Site | Focus |
+|------|-------|
+| [detroit.primals.eco](https://detroit.primals.eco) | Charter school RICO pattern — Banks, Miller, corporate network |
+| [barry.primals.eco](https://barry.primals.eco) | Statewide political infrastructure — Barrett, Rogers, Dykema tree |
+| [lansing.primals.eco](https://lansing.primals.eco) | Capital infrastructure kernel — Dykema, Wilk, Moore, Tremblay |
+| [signal.primals.eco](https://signal.primals.eco) | Observation layer |
+| [sporeprint.primals.eco](https://sporeprint.primals.eco) | Research papers |
+
+## Technical
+
+- Built with [Zola](https://www.getzola.org/)
+- Source: [github.com/amicusContra/lansing](https://github.com/amicusContra/lansing)
+- License: CC-BY-SA 4.0 (original analysis), public domain (court filings, public records)
+- No cookies, no tracking, no third-party analytics
+- Contact: hello@clutchjustice.com

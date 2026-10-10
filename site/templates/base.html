@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}{{ config.title }}{% endblock %}</title>
+  <meta name="description" content="{% block description %}{{ config.description }}{% endblock %}">
+  {% block keywords %}{% if page is defined and page.extra.keywords %}<meta name="keywords" content="{{ page.extra.keywords }}">{% elif section is defined and section.extra.keywords %}<meta name="keywords" content="{{ section.extra.keywords }}">{% endif %}{% endblock %}
+  <link rel="canonical" href="{{ current_url | safe }}">
+  <link rel="alternate" type="application/atom+xml" title="{{ config.title }}" href="{{ get_url(path='atom.xml') | safe }}">
+
+  <!-- OpenGraph -->
+  {% if page is defined and page.title %}{% set og_title = page.title %}{% elif section is defined and section.title %}{% set og_title = section.title %}{% elif term is defined and term.name %}{% set og_title = term.name %}{% else %}{% set og_title = config.title %}{% endif %}
+  {% if page is defined and page.description %}{% set og_desc = page.description %}{% elif section is defined and section.description %}{% set og_desc = section.description %}{% else %}{% set og_desc = config.description %}{% endif %}
+  <meta property="og:title" content="{{ og_title }}">
+  <meta property="og:description" content="{{ og_desc }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ current_url | safe }}">
+  <meta property="og:site_name" content="{{ config.title }}">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ og_title }}">
+  <meta name="twitter:description" content="{{ og_desc }}">
+
+  <link rel="stylesheet" href="{{ get_url(path='css/main.css') | safe }}">
+
+  {% block structured_data %}{% endblock %}
+</head>
+<body>
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="nav-brand">Lansing</a>
+      <div class="nav-links">
+        <a href="{{ get_url(path='@/actors/_index.md') | safe }}">Actors</a>
+        <a href="{{ get_url(path='@/analysis/_index.md') | safe }}">Analysis</a>
+        <a href="{{ get_url(path='@/evidence/_index.md') | safe }}">Evidence</a>
+        <a href="{{ get_url(path='@/timeline/_index.md') | safe }}">Timeline</a>
+      </div>
+      <div class="nav-network" style="font-size:0.8rem;opacity:0.6">
+        <a href="https://detroit.primals.eco">detroit</a> ·
+        <a href="https://barry.primals.eco">tuebor</a> ·
+        <a href="https://sporeprint.primals.eco">sporePrint</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer>
+    <p style="font-size:0.85rem">
+      <strong>Lansing — Capital Infrastructure Record</strong><br>
+      Part of the <a href="https://sporeprint.primals.eco">primals.eco</a> evidence network:
+      <a href="https://detroit.primals.eco">detroit</a> ·
+      <a href="https://barry.primals.eco">tuebor</a> ·
+      <a href="https://thesis.primals.eco">thesis</a> ·
+      <a href="https://signal.primals.eco">signal</a>
+    </p>
+    <p class="footer-license">
+      Original analysis: <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a>.
+      Court filings and public records: public domain where applicable.
+    </p>
+    <p>Something wrong? <a href="mailto:{{ config.extra.contact_email }}">Contact us</a> — truth matters more than being right.</p>
+    <p style="font-size:0.8rem;margin-top:0.5rem"><a href="https://github.com/amicusContra/lansing" style="opacity:0.6">Source: github.com/amicusContra/lansing</a> · <a href="https://sporeprint.primals.eco" style="opacity:0.6">sporePrint</a> · <a href="https://thesis.primals.eco" style="opacity:0.6">thesis</a></p>
+  </footer>
+  {# biomeOS HUD widget — shared observation bar across all primals.eco sites #}
+  <script src="https://hud.primals.eco/js/hud-widget.js" defer></script>
+</body>
+</html>

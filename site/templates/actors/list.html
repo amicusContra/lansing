@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block title %}Actors — {{ config.title }}{% endblock %}
+{% block content %}
+<article class="page-content">
+  <h1>All Actors</h1>
+  <div class="section-grid">
+    {% for term in terms %}
+    <a href="{{ term.permalink | safe }}" class="card">
+      <h3>{{ term.name }}</h3>
+      <p>{{ term.pages | length }} reference{{ term.pages | length | pluralize }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</article>
+{% endblock %}
