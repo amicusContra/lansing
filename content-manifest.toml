@@ -1,0 +1,62 @@
+# BLAKE3 Content Manifest
+# Generated: 2026-10-10T02:25:57Z
+# Pages: 11
+generated = "2026-10-10T02:25:57Z"
+root_hash = "89f0730a4418f1dadcc9bbdacbe29c280698cfbb9b882331313a022685feba31"
+page_count = 11
+
+[pages."content/_index.md"]
+blake3 = "3bf3f867ebc24b3d13c0241ae1d2a9c5bd5f6ddf6ccd1d0563e165ee13e4dfc1"
+size_bytes = 4178
+title = "Lansing — Capital Infrastructure Record"
+
+[pages."content/actors/_index.md"]
+blake3 = "4609309844f767c6014e202dc837840c4d3a0f28edf421e50541a563e28112cf"
+size_bytes = 1184
+title = "Actors"
+
+[pages."content/actors/dykema-gossett.md"]
+blake3 = "21e02dd564bccc817e5f5444c014a8ba84622c9f5575bb3c902341253706f7dd"
+size_bytes = 6976
+title = "Dykema Gossett — Michigan's Operating System"
+
+[pages."content/actors/judge-tremblay.md"]
+blake3 = "354b8120c23a70cde97d69f5025e2afb3f599e881996913eeb69a5bbbf7cce02"
+size_bytes = 3972
+title = "Judge Patricia Tremblay — 30th Circuit Court, Ingham County"
+
+[pages."content/actors/renae-moore.md"]
+blake3 = "a481043b651370dff5a40f838f1736220e95fceb0b3b96e1743d0bf544beebd0"
+size_bytes = 4445
+title = "Renae Moore — 80 Accounts Under Oath"
+
+[pages."content/actors/tom-barrett.md"]
+blake3 = "cbc5dcdbd214c8b7b572d0adda4e561d92e677a7bdacf815d79b53bc64489fc5"
+size_bytes = 5498
+title = "Tom Barrett — U.S. House MI-7"
+
+[pages."content/actors/w-alan-wilk.md"]
+blake3 = "3cb57fa27a1bf452e28d14c07216831cdb12788bd09692a7fd7cb4b725985e25"
+size_bytes = 3908
+title = "W. Alan Wilk — Dark Money Architect"
+
+[pages."content/analysis/_index.md"]
+blake3 = "1bfea410a25f516664fb7ade47a73c0dc2991fa8ac2211b3c20cfed2a80ef37c"
+size_bytes = 1237
+title = "Analysis"
+
+[pages."content/analysis/capital-kernel.md"]
+blake3 = "8909b9c76cc3207da5e5c126a7c840f9c5126183a6be53c15b1d0add2558f1a3"
+size_bytes = 8246
+title = "The Capital Kernel — Dykema Gossett as Infrastructure"
+
+[pages."content/evidence/_index.md"]
+blake3 = "3994495aec8dbaa10d2440450686df2869e393599cf9e69d68dddd5425bf646c"
+size_bytes = 1218
+title = "Evidence"
+
+[pages."content/timeline/_index.md"]
+blake3 = "a1f5091049c8f694985b29acfd8a738b0837e859760c1a9134862befecd9b5e4"
+size_bytes = 1589
+title = "Timeline"
+
