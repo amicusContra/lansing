@@ -13,7 +13,7 @@ person_description = "Judge, 30th Circuit Court, Ingham County, Michigan. Recuse
 person_job_title = "Circuit Court Judge"
 person_works_for = "30th Circuit Court, Ingham County"
 person_url = "https://lansing.primals.eco/actors/judge-tremblay/"
-person_same_as = ["https://detroit.primals.eco/actors/judge-tremblay/"]
+person_same_as = ["https://lansing.primals.eco/actors/judge-tremblay/"]
 
 [taxonomies]
 actors = ["Judge Patricia Tremblay", "Aaron Keel", "Brian Banks"]

@@ -13,7 +13,7 @@ person_description = "U.S. Representative, Michigan's 7th Congressional District
 person_job_title = "U.S. Representative"
 person_works_for = "U.S. House of Representatives"
 person_url = "https://lansing.primals.eco/actors/tom-barrett/"
-person_same_as = ["https://barry.primals.eco/analysis/tommy-boy/", "https://detroit.primals.eco/actors/tom-barrett/"]
+person_same_as = ["https://barry.primals.eco/analysis/tommy-boy/", "https://lansing.primals.eco/actors/tom-barrett/"]
 
 [taxonomies]
 actors = ["Tom Barrett", "Jason Roe", "Mike Rogers", "Kenneth Griffin", "Stephen Schwarzman"]
