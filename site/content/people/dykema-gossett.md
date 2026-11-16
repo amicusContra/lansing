@@ -90,7 +90,7 @@ These are not separate organizations. They are Dykema processes wearing 501(c)(4
 - Duggan campaign lawyer
 - Chatfield/Snyder dark money operations
 - "Not authorized to speak to the press"
-- [Full profile →](/actors/w-alan-wilk/)
+- [Full profile →](/people/w-alan-wilk/)
 
 ### Renae Moore
 - **Senior Compliance Specialist**
@@ -100,7 +100,7 @@ These are not separate organizations. They are Dykema processes wearing 501(c)(4
 - Under oath: manages **{{ fact(registry="actors", key="moore", field="account_count") }} accounts**
 - Simultaneous roles across **{{ fact(registry="actors", key="moore", field="entity_roles") }} entities** (SDJ, ONF, DJF, RFFW, Peninsula Fund, Promise to the People)
 - Dual role: compliance for **Peninsula Fund** (defendant) while on **Promise to the People Fund** (AG-affiliated)
-- [Full profile →](/actors/renae-moore/)
+- [Full profile →](/people/renae-moore/)
 
 ---
 

@@ -11,8 +11,8 @@ person_name = "Renae Moore"
 person_description = "Senior Compliance Specialist at Dykema Gossett PLLC. Testified February 26, 2025 to managing 80+ dark money accounts. Simultaneous compliance roles across 6+ entities."
 person_job_title = "Senior Compliance Specialist"
 person_works_for = "Dykema Gossett PLLC"
-person_url = "https://lansing.primals.eco/actors/renae-moore/"
-person_same_as = ["https://detroit.primals.eco/actors/renae-moore/", "https://barry.primals.eco/analysis/sitting-in-a-tree/"]
+person_url = "https://lansing.primals.eco/people/renae-moore/"
+person_same_as = ["https://detroit.primals.eco/people/renae-moore/", "https://barry.primals.eco/analysis/sitting-in-a-tree/"]
 
 [taxonomies]
 actors = ["Renae Moore", "W. Alan Wilk", "Lee Chatfield"]
@@ -80,5 +80,5 @@ This is not a compliance department. It is a scheduling problem.
 
 - **Leak in the Dyke**: [detroit.primals.eco](https://detroit.primals.eco/analysis/leak-in-the-dyke/) — Moore testimony, 80 accounts
 - **Sitting in a Tree**: [barry.primals.eco](https://barry.primals.eco/analysis/sitting-in-a-tree/) — Moore watering the tree
-- **W. Alan Wilk**: [lansing.primals.eco](/actors/w-alan-wilk/) — the formation half
-- **Dykema Gossett**: [lansing.primals.eco](/actors/dykema-gossett/) — the five-level stack
+- **W. Alan Wilk**: [lansing.primals.eco](/people/w-alan-wilk/) — the formation half
+- **Dykema Gossett**: [lansing.primals.eco](/people/dykema-gossett/) — the five-level stack

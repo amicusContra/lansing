@@ -107,4 +107,4 @@ The question is not whether the operating system exists. The question is: **who 
 - **The leak**: [There's a Leak in the Dyke — detroit.primals.eco](https://detroit.primals.eco/analysis/leak-in-the-dyke/)
 - **The construction manual**: [How to Build an OS — barry.primals.eco](https://barry.primals.eco/analysis/how-to-build-an-os/)
 - **The enterprise**: [detroit.primals.eco/network](https://detroit.primals.eco/network/)
-- **Actor profiles**: [Dykema Gossett](/actors/dykema-gossett/) · [W. Alan Wilk](/actors/w-alan-wilk/) · [Renae Moore](/actors/renae-moore/) · [Tom Barrett](/actors/tom-barrett/) · [Judge Tremblay](/actors/judge-tremblay/)
+- **Actor profiles**: [Dykema Gossett](/people/dykema-gossett/) · [W. Alan Wilk](/people/w-alan-wilk/) · [Renae Moore](/people/renae-moore/) · [Tom Barrett](/people/tom-barrett/) · [Judge Tremblay](/people/judge-tremblay/)

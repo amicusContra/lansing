@@ -26,9 +26,9 @@ Three nodes seed this graph. Each one connects back to 201 Townsend.
 
 | Actor | Role | Dykema Connection |
 |-------|------|-------------------|
-| **[Tom Barrett](/actors/tom-barrett/)** | U.S. House MI-7 (R) | Dykema Federal PAC → {{ fact(registry="actors", key="barrett", field="dykema_pac_amount") }} ({{ fact(registry="actors", key="barrett", field="dykema_pac_source") }}) |
-| **[Dykema Gossett](/actors/dykema-gossett/)** | MI's largest law firm | The trunk. Forms, staffs, and operates dark money vehicles from its own office. |
-| **[Judge Tremblay](/actors/judge-tremblay/)** | 30th Circuit Court, Ingham County | Recused from Banks PPO. 18yr overlap with Lansing campaign finance world. |
+| **[Tom Barrett](/people/tom-barrett/)** | U.S. House MI-7 (R) | Dykema Federal PAC → {{ fact(registry="actors", key="barrett", field="dykema_pac_amount") }} ({{ fact(registry="actors", key="barrett", field="dykema_pac_source") }}) |
+| **[Dykema Gossett](/people/dykema-gossett/)** | MI's largest law firm | The trunk. Forms, staffs, and operates dark money vehicles from its own office. |
+| **[Judge Tremblay](/people/judge-tremblay/)** | 30th Circuit Court, Ingham County | Recused from Banks PPO. 18yr overlap with Lansing campaign finance world. |
 
 The infrastructure connecting them is documented across the **primals.eco evidence network**:
 

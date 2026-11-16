@@ -11,8 +11,8 @@ person_name = "W. Alan Wilk"
 person_description = "Member and Team Leader of Political Compliance at Dykema Gossett PLLC. Incorporator of 7+ dark money vehicles including Save Detroit Jobs, Our Neighborhoods First, RFFW LLC, and Peninsula Fund. RNLA member. Duggan campaign lawyer."
 person_job_title = "Member, Team Leader Political Compliance"
 person_works_for = "Dykema Gossett PLLC"
-person_url = "https://lansing.primals.eco/actors/w-alan-wilk/"
-person_same_as = ["https://detroit.primals.eco/actors/w-alan-wilk/", "https://barry.primals.eco/analysis/sitting-in-a-tree/"]
+person_url = "https://lansing.primals.eco/people/w-alan-wilk/"
+person_same_as = ["https://detroit.primals.eco/people/w-alan-wilk/", "https://barry.primals.eco/analysis/sitting-in-a-tree/"]
 
 [taxonomies]
 actors = ["W. Alan Wilk", "Renae Moore", "Lee Chatfield"]
@@ -66,5 +66,5 @@ When asked by media: **"Not authorized to speak to the press."**
 
 - **Leak in the Dyke**: [detroit.primals.eco](https://detroit.primals.eco/analysis/leak-in-the-dyke/) — {{ fact(registry="actors", key="wilk", field="vehicle_count") }} vehicles exposed
 - **Sitting in a Tree**: [barry.primals.eco](https://barry.primals.eco/analysis/sitting-in-a-tree/) — Wilk as formation kernel
-- **Dykema Gossett**: [lansing.primals.eco](/actors/dykema-gossett/) — the five-level stack
-- **Renae Moore**: [lansing.primals.eco](/actors/renae-moore/) — the compliance half
+- **Dykema Gossett**: [lansing.primals.eco](/people/dykema-gossett/) — the five-level stack
+- **Renae Moore**: [lansing.primals.eco](/people/renae-moore/) — the compliance half

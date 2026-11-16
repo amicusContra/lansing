@@ -12,10 +12,10 @@ The Lansing cluster centers on **201 Townsend Street** — Dykema Gossett's head
 
 | Actor | Role | Tier |
 |-------|------|------|
-| [Tom Barrett](/actors/tom-barrett/) | U.S. House MI-7 (R) | 1 |
-| [Dykema Gossett](/actors/dykema-gossett/) | MI's largest law firm | 1 |
-| [W. Alan Wilk](/actors/w-alan-wilk/) | Dark money architect | 2 |
-| [Renae Moore](/actors/renae-moore/) | Compliance officer — {{ fact(registry="actors", key="moore", field="account_count") }} accounts | 2 |
-| [Judge Tremblay](/actors/judge-tremblay/) | 30th Circuit Court, Ingham County | 3 |
+| [Tom Barrett](/people/tom-barrett/) | U.S. House MI-7 (R) | 1 |
+| [Dykema Gossett](/people/dykema-gossett/) | MI's largest law firm | 1 |
+| [W. Alan Wilk](/people/w-alan-wilk/) | Dark money architect | 2 |
+| [Renae Moore](/people/renae-moore/) | Compliance officer — {{ fact(registry="actors", key="moore", field="account_count") }} accounts | 2 |
+| [Judge Tremblay](/people/judge-tremblay/) | 30th Circuit Court, Ingham County | 3 |
 
 Cross-reference: [detroit.primals.eco/network](https://detroit.primals.eco/network/) for the full enterprise graph.

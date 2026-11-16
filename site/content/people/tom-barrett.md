@@ -12,8 +12,8 @@ person_alternate_name = "Rep. Tom Barrett"
 person_description = "U.S. Representative, Michigan's 7th Congressional District (R). Former State Senator. Army veteran. Received $4,000 from Dykema Gossett Federal PAC (FEC C00342113). AFP Action largest outside spender at $477,780 (44.8%). Called opponent William Lawrence a 'convicted felon' over an expunged 2013 pipeline protest conviction."
 person_job_title = "U.S. Representative"
 person_works_for = "U.S. House of Representatives"
-person_url = "https://lansing.primals.eco/actors/tom-barrett/"
-person_same_as = ["https://barry.primals.eco/analysis/tommy-boy/", "https://lansing.primals.eco/actors/tom-barrett/"]
+person_url = "https://lansing.primals.eco/people/tom-barrett/"
+person_same_as = ["https://barry.primals.eco/analysis/tommy-boy/", "https://lansing.primals.eco/people/tom-barrett/"]
 
 [taxonomies]
 actors = ["Tom Barrett", "Jason Roe", "Mike Rogers", "Kenneth Griffin", "Stephen Schwarzman"]
