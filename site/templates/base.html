@@ -1,3 +1,4 @@
+{% import "macros/subpath.html" as subpath %}
 <!DOCTYPE html>
 <html lang="en" data-theme="dark">
 <head>
@@ -30,7 +31,7 @@
 <body>
   <nav>
     <div class="nav-inner">
-      <a href="/" class="nav-brand">Lansing</a>
+      <a href="{{ subpath::root(base=config.base_url) }}/" class="nav-brand">Lansing</a>
       <div class="nav-links">
         <a href="{{ get_url(path='@/people/_index.md') | safe }}">Actors</a>
         <a href="{{ get_url(path='@/analysis/_index.md') | safe }}">Analysis</a>

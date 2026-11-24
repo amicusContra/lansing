@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "macros/subpath.html" as subpath %}
 {% block title %}{{ term.name }} — {{ config.title }}{% endblock %}
 {% block content %}
 <article class="page-content">
@@ -15,7 +16,7 @@
   <p style="margin-top:2rem;font-size:0.9rem">
     Cross-reference: <a href="https://detroit.primals.eco">detroit</a> ·
     <a href="https://tuebor.primals.eco">tuebor</a> ·
-    <a href="/">lansing</a>
+    <a href="{{ subpath::root(base=config.base_url) }}/">lansing</a>
   </p>
 </article>
 {% endblock %}

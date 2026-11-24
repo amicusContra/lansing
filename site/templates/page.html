@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% import "macros/subpath.html" as subpath %}
 
 {% block title %}{{ page.title }} — {{ config.title }}{% endblock %}
 {% block description %}{{ page.description }}{% endblock %}
@@ -56,7 +57,7 @@
   <time datetime="{{ page.date }}">{{ page.date | date(format="%B %e, %Y") }}</time>
   {% endif %}
 
-  {{ page.content | safe }}
+  {{ subpath::links(html=page.content, base=config.base_url) }}
 
   {% if page.taxonomies %}
   <div class="taxonomy-pills">
